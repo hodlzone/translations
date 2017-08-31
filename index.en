@@ -1,3 +1,4 @@
+# /contact :: Contact section
 contact.header=Contact Us
 contact.description=As crypto HODLers, we understand your concerns. Feel free to reach out to us by either email or slack. For quicker reponses, please use our slack.
 contact.joinslack=Join our Slack
@@ -5,12 +6,15 @@ contact.emailus=Email us at: support@hodl.zone
 contact.sectiondescription=The Crypto HODLers that brought you HODL.ZONE.
 contact.leaddeveloper=Lead Developer
 
+
+
+# / :: Header Navbar
 index.header.faq=FAQ
 index.header.login=Login
 index.header.signup=Signup
 index.header.dash=Dashboard
 
-# Modal Login/Register 
+# / :: Modal Login/Register 
 index.header.modal.error=Error!
 index.header.modal.email=Email
 index.header.modal.pass=Password
@@ -23,3 +27,21 @@ index.header.modal.registernew=Register a New Account
 index.header.modal.confirmpass=Confirm Password
 index.header.modal.invitecode=Invite Code
 index.header.modal.register=Register
+
+# /faq :: Frequently Asked Questions
+faq.title=Frequently Asked Questions
+
+faq.question_1=What does HODL mean? Don't you mean HOLD?
+faq.answer_1=Hodl is a meme from early bitcoin days. It was part of a satirical post encouraging individuals who owned bitcoin to not sell during price increases or decreases to reduce volatility and speculative price swings. It has since become a meme of the bitcoin community and a reminder that bitcoin's value has, for the past 8 years, progressed upwards which you benefit from if you HODL your coins.
+
+faq.question_2=What is HODL.ZONE?
+faq.answer_2=HODL.ZONE is a service that helps grow your crypto HODLings by taking advantage of Poloniex's lending system.
+
+faq.question_3=What is lending?
+faq.answer_3=Traders are able to increase their profits (and losses) by trading with money they borrow from other users. To incentivise other users into lending them crypto, they offer interest on that loan. These interest rates change with trading activity, daily prices, and recent news.
+
+
+
+
+# /donate :: Donate section
+donate.description=We put a lot of time and effort in making you money. If you feel the need to say thanks, we do accept bitcoin.
