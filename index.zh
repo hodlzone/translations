@@ -10,8 +10,8 @@ contact.leaddeveloper=Lead Developer
 
 # / :: Header Navbar
 index.header.faq=FAQ
-index.header.login=Login
-index.header.signup=Signup
+index.header.login=登入
+index.header.signup=註冊
 index.header.dash=Dashboard
 
 # Ensure to keep bolding
