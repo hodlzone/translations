@@ -81,3 +81,29 @@ verified.email_sucess=Successfully verified email
 
 # /donate :: Donate section
 donate.description=We put a lot of time and effort in making you money. If you feel the need to say thanks, we do accept bitcoin.
+
+# /dashboard :: Dashboard SideNav
+dash.sidenav.home=Home
+dash.sidenav.settings=Settings
+dash.sidenav.usersettings=User Settings
+dash.sidenav.lendsettings=Lending Settings
+dash.sidenav.payment=Payment
+dash.sidenav.paymentinfo=Payment Information
+dash.sidenav.deposit=Deposit
+dash.sidenav.profitproj=Profit Projections
+dash.sidenav.currencies=Currencies
+dash.sidenav.logout=Logout
+dash.sidenav.contactus=Contact Us
+dash.sidenav.faq=FAQ
+dash.sidenav.meetteam=Meet the Team
+dash.sidenav.sendlove=Send Some Love
+
+dash.topnav.email=Hiya doing,
+dash.topnav.time=? Current UTC Time: 
+
+dash.info.currentlendrate=Current Lending Rate
+dash.info.currentbtclent=Current BTC Lent
+dash.info.currentbtcnotlent=Current BTC Not Lent
+dash.info.availablebtclent=Available BTC Lent
+dash.info.fromyesterday=from yesterday
+
