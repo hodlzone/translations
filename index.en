@@ -20,6 +20,12 @@ index.hero.start_button=Start Lending
 
 index.body.grow_heading=Grow your HODLings
 index.body.grow_text=Banks earn money by lending your savings to those who wish to invest with it. You can earn interest yourself by lending your cryptos.
+index.body.whatis=What's HODL.ZONE?
+index.body.whatis_text=Crypto lending rates change by the hour. We use automated bots and algorithms so you can passively seize the best rates.
+index.body.hodlfunds=We don't hold the funds
+index.body.hodlfunds_text=HODL.ZONE cannot withdraw your funds. Deposit on Poloniex and give us limited access to make only trades.
+index.body.earnings=How much can I earn?
+index.body.calculator=Use this caluclator to estimate future earnings based on historical lending rates.
 
 # / :: Modal Login/Register 
 index.header.modal.error=Error!
