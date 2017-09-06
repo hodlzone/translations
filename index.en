@@ -26,6 +26,14 @@ index.body.hodlfunds=We don't hold the funds
 index.body.hodlfunds_text=HODL.ZONE cannot withdraw your funds. Deposit on Poloniex and give us limited access to make only trades.
 index.body.earnings=How much can I earn?
 index.body.calculator=Use this caluclator to estimate future earnings based on historical lending rates.
+index.body.calculator.amount=BTC Amount
+index.body.calculator.time=Weeks
+index.body.slack.join=Join our Slack
+index.body.slack.description=Get live support from the admins and community advice to make better decisions
+index.body.slack.signup=Sign up
+index.body.bottom.row.one=It's easy to lend.
+index.body.bottom.row.one_text=Here's how.
+
 
 # / :: Modal Login/Register 
 index.header.modal.error=Error!
