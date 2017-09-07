@@ -12,11 +12,11 @@ contact.leaddeveloper=Lead Developer
 index.header.faq=常見問題
 index.header.login=登入
 index.header.signup=註冊
-index.header.dash=Dashboard
+index.header.dash=控制頁面
 
 # Ensure to keep bolding
 index.hero.slogan=Grow your <b>crypto-holdings</b> while you HODL
-index.hero.start_button=Start Lending
+index.hero.start_button=開始出借
 
 index.body.grow_heading=Grow your HODLings
 index.body.grow_text=Banks earn money by lending your savings to those who wish to invest with it. You can earn interest yourself by lending your cryptos.
@@ -56,27 +56,27 @@ faq.question_1=什麼是HODL? 你是在說HOLD嗎?
 faq.answer_1=Hodl一詞源自於比特幣剛發跡的時候，諷刺人們不應該在比特幣價值上下波動時，輕易將其出售，相反的應該持有並HOLD住它。在過去8年裡，比特幣的價格爆炸性的飆升，如果你一直抱到現在，肯定獲利不少。
 
 faq.question_2=什麼是 HODL.ZONE?
-faq.answer_2=HODL.ZONE是一個利用Poloniex(俗稱P網)借貸系統(lending system)增加你數位貨幣資產的網站。
+faq.answer_2=HODL.ZONE是一個利用Poloniex(俗稱P網)出借系統(lending system)增加你數位貨幣資產的網站。
 
-faq.question_3=什麼是借貸(lending)?
+faq.question_3=什麼是出借(lending)?
 faq.answer_3=交易者可以透過與其他用戶借款，進行貨幣交易來增加利潤（和損失）。借貸雙方為了鼓勵用戶借貸數位貨幣，提高他們對該貸款興趣。 這些出借利率隨著每天交易活動、價格和消息而變化。
 
-faq.question_4=借貸安全嗎?
+faq.question_4=出借安全嗎?
 faq.answer_4=通常放款時，您必須承擔和擔心對方違約的風險，但幸運的是，Poloniex可以防止這種情況發生，借款人必須先抵押本金，如果他的本金接近違約時該給付的金額，系統就會強制將其自動清算，也就是說出借方並不會有任何損失。
 
-faq.question_5=那麼，要怎麼借貸呢?
-faq.answer_5=You can lend by moving funds from your Exchange to your Lending account on Poloniex and posting lends at a rate and hoping for a borrower to grab it. These loans can last anywhere from a second to 60 days (We cap our loans out at 2 days, so your funds are never tied up for very long). This makes manual lending hard, as everytime you check back, you'll have funds waiting to be lent. That's why using an automated service such as HODL.ZONE will maximize your profits by keeping your crypto lent and not sitting around.
+faq.question_5=那麼，要怎麼出借你的資金呢?
+faq.answer_5=您可以透過將資金從您的交易帳戶(Exchange)轉移到您的Poloniex的出借(Lending)帳戶來進行放款，並藉由設定利息的高低來吸引其他用戶向你借款， 而這些貸款持續的週期可能短到以秒為單位，或是長達60天之久（我們網站設定最大的出借天數為兩天，好處就是你的資金永遠不會被綁住太久) ，這使得手動掛單出借顯得很沒有效率和困難，因為你沒辦法預測借款者會不會提早還款，也就是說，每當你檢查你的帳戶，你可能會發現有資金閒置(被提早還款)，這也就是就是為什麼使用HODL.ZONE這樣的自動化服務，可以透過不斷自動掛單出借你的資金，最大化你的利益，而不是讓你的資金閒置在那裡。
 
-faq.question_6=But why HODL.ZONE?
-faq.answer_6=We are constantly recording statistics on lending rates and determining the best strategies to get the best rates. Because the rates are so volatile, we aim to not only maximize uptime, but also the rates themselves.
+faq.question_6=那..為什麼要選HODL.ZONE呢?
+faq.answer_6=由於市場利率波動無常，所以我們透過不斷記錄貸款利率的統計資料，來決定最佳利率，因為我們的目標不僅僅是最大限度地延長出借的時間，還有出借時的利息。
 
-faq.question_7=Can I trust HODL.ZONE?
+faq.question_7=我可以信任HODL.ZONE嗎?
 faq.answer_7=When giving us access to your account via an API, restrict the API to make only trades. This reduces your risk by not allowing us to take your coins, and also reduces our risk. We are crypto HODLers who are offering a service that we created, and in light of trust, we opening give out our identities and have an open communication channel on Slack. Feel free to talk to us about any concerns or comments
 
-faq.question_8=Can I trust Poloniex? I hold my own Bitcoin.
+faq.question_8=我可以相信Poloniex嗎? I hold my own Bitcoin.
 faq.answer_8=We understand the risk of HODLing your crypto on an exchange, and are not trying to endorse Poloniex as the place to store your savings. However, keeping money on Poloniex enables you to earn interest off of your savings. Crypto held on a paper wallet doesn't earn any interest.
 
-faq.question_9=How much money can I make?
+faq.question_9=那麼..可以獲利多少錢呢?
 faq.answer_9=The rates change constantly, some days you can make up to 0.5% of your crypto PER DAY, but they can get pretty low too. The calculator on the front page is using the monthy average rate for BTC lending, so feel to try it out. We are working on ways to better inform you of the potential profits.
 
 faq.question_10=What if my money is tied up in an alt coin?
@@ -84,36 +84,36 @@ faq.answer_10=Although we focus on lending BTC, we also support lending for BTS,
 
 
 # /newpass/request :: New Password Requests
-newpass.input_password=Input your new password
-newpass.new_password=New Password
-newpass.input_email=Input your email address
-newpass.email_success=An email has been sent if user exists.
+newpass.input_password=填入新密碼
+newpass.new_password=新密碼
+newpass.input_email=填入你的信箱
+newpass.email_success=確認信已送出，請確認用戶資料正確。
 
 
 # Verified
-verified.email_sucess=Successfully verified email
+verified.email_sucess=信箱認證成功
 
 # /donate :: Donate section
-donate.description=We put a lot of time and effort in making you money. If you feel the need to say thanks, we do accept bitcoin.
+donate.description=我們為了增加你的收益做了許多努力，如果你覺得我們做得不錯，想對我們表達支持、感謝或鼓勵，歡迎您贊助我們一些比特幣:)
 
 # /dashboard :: Dashboard SideNav
-dash.sidenav.home=Home
-dash.sidenav.settings=Settings
-dash.sidenav.usersettings=User Settings
-dash.sidenav.lendsettings=Lending Settings
-dash.sidenav.payment=Payment
-dash.sidenav.paymentinfo=Payment Information
-dash.sidenav.deposit=Deposit
-dash.sidenav.profitproj=Profit Projections
-dash.sidenav.currencies=Currencies
-dash.sidenav.logout=Logout
-dash.sidenav.contactus=Contact Us
-dash.sidenav.faq=FAQ
-dash.sidenav.meetteam=Meet the Team
-dash.sidenav.sendlove=Send Some Love
+dash.sidenav.home=首頁
+dash.sidenav.settings=設定
+dash.sidenav.usersettings=用戶設定
+dash.sidenav.lendsettings=出借設定
+dash.sidenav.payment=付款
+dash.sidenav.paymentinfo=付款資訊
+dash.sidenav.deposit=儲值
+dash.sidenav.profitproj=盈利預測
+dash.sidenav.currencies=貨幣
+dash.sidenav.logout=登出
+dash.sidenav.contactus=聯絡我們
+dash.sidenav.faq=常見問題
+dash.sidenav.meetteam=我們的團隊
+dash.sidenav.sendlove=給我們鼓勵
 
-dash.topnav.email=Hiya doing,
-dash.topnav.time=? Current UTC Time: 
+dash.topnav.email=嗨，你好嗎
+dash.topnav.time=? 國際協調時間(UTC Time): 
 
 dash.info.currentlendrate=Current Lending Rate
 dash.info.currentbtclent=Current BTC Lent
