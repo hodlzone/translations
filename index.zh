@@ -1,8 +1,8 @@
 # /contact :: Contact section
-contact.header=Contact Us
+contact.header=聯絡我們
 contact.description=As crypto HODLers, we understand your concerns. Feel free to reach out to us by either email or slack. For quicker reponses, please use our slack.
-contact.joinslack=Join our Slack
-contact.emailus=Email us at: support@hodl.zone
+contact.joinslack=加入我們的 Slack社群
+contact.emailus=寫信給我們: support@hodl.zone
 contact.sectiondescription=The Crypto HODLers that brought you HODL.ZONE.
 contact.leaddeveloper=Lead Developer
 
@@ -24,7 +24,7 @@ index.body.whatis=What's HODL.ZONE?
 index.body.whatis_text=Crypto lending rates change by the hour. We use automated bots and algorithms so you can passively seize the best rates.
 index.body.hodlfunds=We don't hold the funds
 index.body.hodlfunds_text=HODL.ZONE cannot withdraw your funds. Deposit on Poloniex and give us limited access to make only trades.
-index.body.earnings=How much can I earn?
+index.body.earnings=我能獲得多少利潤?
 index.body.calculator=Use this caluclator to estimate future earnings based on historical lending rates.
 index.body.calculator.amount=BTC Amount
 index.body.calculator.time=Weeks
@@ -71,17 +71,16 @@ faq.question_6=那..為什麼要選HODL.ZONE呢?
 faq.answer_6=由於市場利率波動無常，所以我們透過不斷記錄貸款利率的統計資料，來決定最佳利率，因為我們的目標不僅僅是最大限度地延長出借的時間，還有出借時的利息。
 
 faq.question_7=我可以信任HODL.ZONE嗎?
-faq.answer_7=When giving us access to your account via an API, restrict the API to make only trades. This reduces your risk by not allowing us to take your coins, and also reduces our risk. We are crypto HODLers who are offering a service that we created, and in light of trust, we opening give out our identities and have an open communication channel on Slack. Feel free to talk to us about any concerns or comments
+faq.answer_7=當設定我們通過API輔助您的帳戶時，您可以透過限制API的權限來防止我們提取您的貨幣，降低您我損失的風險。我們是一群虛擬貨幣持有者，創建並提供服務給其他加密貨幣玩家，而這一切都將建立在信任的基礎上，所以我們開放我們的身份，並在Slack上建立一個開放及公開的溝通管道，如果您有任何疑問及疑慮，請隨時與我們聯繫及討論，我們非常重視您們的意見及反饋。
 
-faq.question_8=我可以相信Poloniex嗎? I hold my own Bitcoin.
-faq.answer_8=We understand the risk of HODLing your crypto on an exchange, and are not trying to endorse Poloniex as the place to store your savings. However, keeping money on Poloniex enables you to earn interest off of your savings. Crypto held on a paper wallet doesn't earn any interest.
+faq.question_8=我可以相信Poloniex嗎? 我自己不是也可以保管比特幣?
+faq.answer_8=在交易所存放虛擬貨幣的確有一定的風險，我們不是在告訴大家Poloniex是儲存資金多好多棒的地方， 只是，當你在Poloniex上儲存資金，透過出借的等等的方式，可以讓您的資產增加，而單純的儲存在錢包裡是不會生產任何利息的。
 
 faq.question_9=那麼..可以獲利多少錢呢?
-faq.answer_9=The rates change constantly, some days you can make up to 0.5% of your crypto PER DAY, but they can get pretty low too. The calculator on the front page is using the monthy average rate for BTC lending, so feel to try it out. We are working on ways to better inform you of the potential profits.
+faq.answer_9=利率每天都不斷變化，有時您可以每天獲得本金的0.5％，但是有時也可能變得很低。首頁上的計算器是使用BTC貸款的月平均利率，所以有興趣的話可以嘗試一下。我們正持續不斷努力，期望能夠在未來提供您更多有利的資訊。
 
-faq.question_10=What if my money is tied up in an alt coin?
-faq.answer_10=Although we focus on lending BTC, we also support lending for BTS, CLAM, DOGE, DASH, LTC, MAID, STR, XMR, ETH, and FCT. Keep in mind our focus is on BTC, and if you have another token, we may have not optimized the algorithm for that coin. However, we'd love to be able too, and can work with you on maximizing your earnings.
-
+faq.question_10=如果我的資金被綁在比特幣以外的貨幣怎麼辦？
+faq.answer_10=雖然我們主要重點放在比特幣的借貸，但同時我們也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但請別忘記，我們的重點放在比特幣BTC，如果您持有的是比特幣以外的貨幣，我們可能還沒有優化該貨幣的演算法，但是，我們一直朝這個方向努力，希望能盡可能地滿足各種貨幣的持有者，最大化大家的收益。
 
 # /newpass/request :: New Password Requests
 newpass.input_password=填入新密碼
