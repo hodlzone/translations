@@ -25,14 +25,14 @@ index.body.whatis_text=Crypto lending rates change by the hour. We use automated
 index.body.hodlfunds=We don't hold the funds
 index.body.hodlfunds_text=HODL.ZONE cannot withdraw your funds. Deposit on Poloniex and give us limited access to make only trades.
 index.body.earnings=我能獲得多少利潤?
-index.body.calculator=Use this caluclator to estimate future earnings based on historical lending rates.
-index.body.calculator.amount=BTC Amount
-index.body.calculator.time=Weeks
-index.body.slack.join=Join our Slack
-index.body.slack.description=Get live support from the admins and community advice to make better decisions
-index.body.slack.signup=Sign up
-index.body.bottom.row.one=It's easy to lend.
-index.body.bottom.row.one_text=Here's how.
+index.body.calculator=使用歷史利率，來估計您將會獲利多少
+index.body.calculator.amount=比特幣BTC數量
+index.body.calculator.time=週
+index.body.slack.join=加入我們的Slack社群
+index.body.slack.description=讓我們親自向您提供幫助，使您的問題能更快找到答案，也歡迎您向我們提出任何意見及回饋
+index.body.slack.signup=註冊
+index.body.bottom.row.one=出借您的貨幣其實很容易
+index.body.bottom.row.one_text=跟著我們的步驟
 
 
 # / :: Modal Login/Register 
@@ -114,8 +114,8 @@ dash.sidenav.sendlove=給我們鼓勵
 dash.topnav.email=嗨，你好嗎
 dash.topnav.time=? 國際協調時間(UTC Time): 
 
-dash.info.currentlendrate=Current Lending Rate
-dash.info.currentbtclent=Current BTC Lent
-dash.info.currentbtcnotlent=Current BTC Not Lent
-dash.info.availablebtclent=Available BTC Lent
+dash.info.currentlendrate=當前出借利率
+dash.info.currentbtclent=出借中的比特幣BTC
+dash.info.currentbtcnotlent=尚未出借的比特幣BTC
+dash.info.availablebtclent=可出借的比特幣BTC
 dash.info.fromyesterday=from yesterday
