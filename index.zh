@@ -246,3 +246,41 @@ dash.deposit.loading=Loading...
 dash.deposit.boxdesc=By checking this box you accept to the Refund Policy and Disclaimer
 dash.deposit.paythr=Pay Through Coinbase
 dash.deposit.accountcredit=is the account to be credited
+
+# /dashboard#/prediction :: Dashboard Profit Predictions
+dash.profpredic.title=Profit Projections
+
+dash.profpredic.estimate.title=Estimation of Potential Earnings
+dash.profpredic.estimate.desc=This page is designed to assist the user in predicting their potential earnings from lending. All projections are based off the average lending rates over the last 30 days. This is by no means 100% accurate, as market trends can swing up or down, drastically changing the projection. This is merely a tool to help users get a general sense of their potential earnings.
+
+dash.profpredic.projec.title=Projections for Token
+dash.profpredic.projec.desc=All predictions will be made for lending rates on the Poloniex Exchange.
+dash.profpredic.projec.token.tooltip=Crypto currency to be lent
+dash.profpredic.projec.token.title=Token:
+dash.profpredic.projec.quant.tooltip=Amount of crypto currency to be lent
+dash.profpredic.projec.quant.title=Quantity:
+dash.profpredic.projec.uptime.tooltip=Percentage of total being lent at all times
+dash.profpredic.projec.uptime.title=Uptime:
+dash.profpredic.projec.fee.tooltip=The HODLZONE fee, max is 10%
+dash.profpredic.projec.fee.title=HODLZONE Fee:
+
+dash.profpredic.projec.lend.desc=Lending rates are represented in the interest per day. Interest rates are listed below are an average across the time duration specified. All predictions will use the average in the last 30 days.
+dash.profpredic.projec.lend.title=Lending Rates
+dash.profpredic.projec.lend.last30days=Last 30 Days
+dash.profpredic.projec.lend.last7days=Last 7 Days
+dash.profpredic.projec.lend.lastday=Last Day
+dash.profpredic.projec.lend.current=Current
+
+dash.profpredic.projec.profit.title=Projected Profits
+dash.profpredic.projec.profit.time.tooltip=Amount of time to lend
+dash.profpredic.projec.profit.time.title=Time
+dash.profpredic.projec.profit.grossprof.tooltip=Amount of token earned
+dash.profpredic.projec.profit.grossprof.title=Gross Profit
+dash.profpredic.projec.profit.grossbtcprof.tooltip=Using current value of token to btc
+dash.profpredic.projec.profit.grossbtcprof.title=Gross Profit (BTC)
+dash.profpredic.projec.profit.credsconsumed.tooltip=The maximum fee is 10%"
+dash.profpredic.projec.profit.credsconsumed.title=Credits consumed (Based off the fee)
+dash.profpredic.projec.profit.daily=Daily
+dash.profpredic.projec.profit.weekly=Weekly
+dash.profpredic.projec.profit.monthly=Monthly
+dash.profpredic.projec.profit.yearly=Yearly
