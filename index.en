@@ -33,7 +33,19 @@ index.body.slack.description=Get live support from the admins and community advi
 index.body.slack.signup=Sign up
 index.body.bottom.row.one=It's easy to lend.
 index.body.bottom.row.one_text=Here's how.
+index.body.bottom.row.one_msg=Information
+index.body.bottom.row.two=Still don't get it?
+index.body.bottom.row.two_text=We get these alot
+index.body.bottom.row.three=What goes on
+index.body.bottom.row.three_text=behind the scenes?
+index.body.bottom.row.three_msg=Blog
+index.body.news.header=Stay in Touch
+index.body.news.desc=Sign up for our newsletter
+index.body.news.button=Go!
 
+# / :: Footer
+footer.support=Support
+footer.contact=Contact
 
 # / :: Modal Login/Register 
 index.header.modal.error=Error!
@@ -48,6 +60,7 @@ index.header.modal.registernew=Register a New Account
 index.header.modal.confirmpass=Confirm Password
 index.header.modal.invitecode=Invite Code
 index.header.modal.register=Register
+index.header.modal.ref=Referral Code
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions

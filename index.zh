@@ -33,7 +33,19 @@ index.body.slack.description=讓我們親自向您提供幫助，使您的問題
 index.body.slack.signup=註冊
 index.body.bottom.row.one=出借您的貨幣其實很容易
 index.body.bottom.row.one_text=跟著我們的步驟
+index.body.bottom.row.one_msg=Information
+index.body.bottom.row.two=Still don't get it?
+index.body.bottom.row.two_text=We get these alot
+index.body.bottom.row.three=What goes on
+index.body.bottom.row.three_text=behind the scenes?
+index.body.bottom.row.three_msg=Blog
+index.body.news.header=Stay in Touch
+index.body.news.desc=Sign up for our newsletter
+index.body.news.button=Go!
 
+# / :: Footer
+footer.support=Support
+footer.contact=Contact
 
 # / :: Modal Login/Register 
 index.header.modal.error=錯誤!
@@ -48,6 +60,7 @@ index.header.modal.registernew=註冊新帳號
 index.header.modal.confirmpass=確認密碼
 index.header.modal.invitecode=邀請碼
 index.header.modal.register=註冊
+index.header.modal.ref=Referral Code
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
@@ -81,6 +94,7 @@ faq.answer_9=利率每天都不斷變化，有時您可以每天獲得本金的0
 
 faq.question_10=如果我的資金被綁在比特幣以外的貨幣怎麼辦？
 faq.answer_10=雖然我們主要重點放在比特幣的借貸，但同時我們也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但請別忘記，我們的重點放在比特幣BTC，如果您持有的是比特幣以外的貨幣，我們可能還沒有優化該貨幣的演算法，但是，我們一直朝這個方向努力，希望能盡可能地滿足各種貨幣的持有者，最大化大家的收益。
+
 
 # /newpass/request :: New Password Requests
 newpass.input_password=填入新密碼
