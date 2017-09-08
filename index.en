@@ -120,3 +120,14 @@ dash.info.currentbtclent=Current BTC Lent
 dash.info.currentbtcnotlent=Current BTC Not Lent
 dash.info.availablebtclent=Available BTC Lent
 dash.info.fromyesterday=from yesterday
+
+dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
+dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
+
+dash.info.lendhalt.reason=Lending Halted! Reason:
+dash.info.lendhalt.warning=Lending Warning!
+
+dash.info.balancedetails.title=Balance Details
+dash.info.balancedetails.breakdown=Breakdown of your total lending balances in their BTC value. 
+dash.info.balancedetails.topfive=Top 5 in BTC
+dash.info.balancedetails.currencydist=Currency Dist.
