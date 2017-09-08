@@ -1,10 +1,10 @@
 # /contact :: Contact section
 contact.header=聯絡我們
-contact.description=As crypto HODLers, we understand your concerns. Feel free to reach out to us by either email or slack. For quicker reponses, please use our slack.
+contact.description=同為虛擬貨幣玩家,我們了解您的擔心與顧慮，所以請不吝聯繫我們，告訴我們您遇到的問題或顧忌，您可以寫email或透過我們的slack社群，如果您的問題急於答覆，請在slack社群上聯繫我們。
 contact.joinslack=加入我們的 Slack社群
 contact.emailus=寫信給我們: support@hodl.zone
-contact.sectiondescription=The Crypto HODLers that brought you HODL.ZONE.
-contact.leaddeveloper=Lead Developer
+contact.sectiondescription=同為虛擬貨幣持有者的HODL.ZONE創辦成員。
+contact.leaddeveloper=創辦人
 
 
 
@@ -15,15 +15,15 @@ index.header.signup=註冊
 index.header.dash=控制頁面
 
 # Ensure to keep bolding
-index.hero.slogan=Grow your <b>crypto-holdings</b> while you HODL
+index.hero.slogan=透過利滾利，放大您持有的數位資產 
 index.hero.start_button=開始出借
 
-index.body.grow_heading=Grow your HODLings
-index.body.grow_text=Banks earn money by lending your savings to those who wish to invest with it. You can earn interest yourself by lending your cryptos.
-index.body.whatis=What's HODL.ZONE?
-index.body.whatis_text=Crypto lending rates change by the hour. We use automated bots and algorithms so you can passively seize the best rates.
-index.body.hodlfunds=We don't hold the funds
-index.body.hodlfunds_text=HODL.ZONE cannot withdraw your funds. Deposit on Poloniex and give us limited access to make only trades.
+index.body.grow_heading=讓你持有的資金變多
+index.body.grow_text=銀行利用你的儲蓄放款給投資人來賺取利率，同理，您也可以出借您的數位貨幣來賺取利潤
+index.body.whatis=什麼是HODL.ZONE?
+index.body.whatis_text=數位貨幣的出借利率每個小時都在變動，我們透過演算法和機器人，讓您能自動的出借當前最好的利率
+index.body.hodlfunds=我們並不會經手您的任何本金
+index.body.hodlfunds_text=HODL.ZONE並不能從你的帳號提取任何資金，你必須要先在Poloniex(俗稱P網)儲值資金，然後開放有限的權限(不能提存款)給我們的網站，讓我們能為您操作賺取利率。
 index.body.earnings=我能獲得多少利潤?
 index.body.calculator=使用歷史利率，來估計您將會獲利多少
 index.body.calculator.amount=比特幣BTC數量
@@ -53,7 +53,7 @@ index.header.modal.email=信箱
 index.header.modal.pass=密碼
 index.header.modal.twofa=2FA
 index.header.modal.optional=非必要
-index.header.modal.required=Only required if you have activated with your account.
+index.header.modal.required=如果您的帳號有啟用此功能才需填寫
 index.header.modal.forgotpass=忘記密碼?
 index.header.modal.cancel=取消
 index.header.modal.registernew=註冊新帳號
@@ -129,10 +129,11 @@ dash.topnav.email=嗨，你好嗎
 dash.topnav.time=? 國際協調時間(UTC Time): 
 
 dash.info.currentlendrate=當前出借利率
-dash.info.currentbtclent=出借中的比特幣BTC
-dash.info.currentbtcnotlent=尚未出借的比特幣BTC
-dash.info.availablebtclent=可出借的比特幣BTC
-dash.info.fromyesterday=from yesterday
+
+dash.info.currentbtclent=出借中 單位:BTC
+dash.info.currentbtcnotlent=尚未成功出借 單位:BTC
+dash.info.availablebtclent=已出借百分比 單位:BTC
+dash.info.fromyesterday=跟昨天比較
 
 dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
 dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
