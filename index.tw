@@ -284,3 +284,20 @@ dash.profpredic.projec.profit.daily=Daily
 dash.profpredic.projec.profit.weekly=Weekly
 dash.profpredic.projec.profit.monthly=Monthly
 dash.profpredic.projec.profit.yearly=Yearly
+
+# /dashboard#/coin/<coinname> :: Dashboard Currencies
+dash.cur.lendhist.title=Last Month {{coin}} Lending History
+dash.cur.lendhist.desc=Each day represents the loans that closed on that given day. Keep in mind that this has some data skew because loans can be up to 2 days in length, meaning a loan placed today might not show up until 2 days from now. This causes days with average shorter durations appear more profitible.
+dash.cur.lendhist.switchto=Switch to
+dash.cur.lendhist.dollars=Dollars
+dash.cur.lendhist.none=No Lending History Found.
+
+dash.cur.lendrate.title=Last Month {{coin}} Lending Rates
+dash.cur.lendrate.desc=The middle line is the average active rate for that given moment in time. The area around it shows the highest and lowest rates.
+dash.cur.lendrate.loading=Loading detailed lending history... this may take a moment.
+dash.cur.lendrate.none=No Lending Rates Found.
+
+dash.cur.lendamount.title=Last Month {{coin}} Lending Amounts
+dash.cur.lendamount.desc=Here shows the amount of crypto that was being lent, and not being lent throughout the last month.
+dash.cur.lendamount.loading=Loading detailed lending history... this may take a moment.
+dash.cur.lendamount.none=No Lending BTC Monthly Lending Amount Found.
