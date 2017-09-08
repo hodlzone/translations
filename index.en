@@ -33,7 +33,19 @@ index.body.slack.description=Get live support from the admins and community advi
 index.body.slack.signup=Sign up
 index.body.bottom.row.one=It's easy to lend.
 index.body.bottom.row.one_text=Here's how.
+index.body.bottom.row.one_msg=Information
+index.body.bottom.row.two=Still don't get it?
+index.body.bottom.row.two_text=We get these alot
+index.body.bottom.row.three=What goes on
+index.body.bottom.row.three_text=behind the scenes?
+index.body.bottom.row.three_msg=Blog
+index.body.news.header=Stay in Touch
+index.body.news.desc=Sign up for our newsletter
+index.body.news.button=Go!
 
+# / :: Footer
+footer.support=Support
+footer.contact=Contact
 
 # / :: Modal Login/Register 
 index.header.modal.error=Error!
@@ -48,6 +60,7 @@ index.header.modal.registernew=Register a New Account
 index.header.modal.confirmpass=Confirm Password
 index.header.modal.invitecode=Invite Code
 index.header.modal.register=Register
+index.header.modal.ref=Referral Code
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
@@ -120,3 +133,14 @@ dash.info.currentbtclent=Current BTC Lent
 dash.info.currentbtcnotlent=Current BTC Not Lent
 dash.info.availablebtclent=Available BTC Lent
 dash.info.fromyesterday=from yesterday
+
+dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
+dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
+
+dash.info.lendhalt.reason=Lending Halted! Reason:
+dash.info.lendhalt.warning=Lending Warning!
+
+dash.info.balancedetails.title=Balance Details
+dash.info.balancedetails.breakdown=Breakdown of your total lending balances in their BTC value. 
+dash.info.balancedetails.topfive=Top 5 in BTC
+dash.info.balancedetails.currencydist=Currency Dist.
