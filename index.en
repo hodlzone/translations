@@ -125,9 +125,11 @@ dash.sidenav.faq=FAQ
 dash.sidenav.meetteam=Meet the Team
 dash.sidenav.sendlove=Send Some Love
 
+# /dashboard :: Dashboard TopNav
 dash.topnav.email=Hiya doing,
 dash.topnav.time=? Current UTC Time: 
 
+# /dashboard :: Dashboard Info
 dash.info.currentlendrate=Current Lending Rate
 dash.info.currentbtclent=Current BTC Lent
 dash.info.currentbtcnotlent=Current BTC Not Lent
@@ -144,3 +146,72 @@ dash.info.balancedetails.title=Balance Details
 dash.info.balancedetails.breakdown=Breakdown of your total lending balances in their BTC value. 
 dash.info.balancedetails.topfive=Top 5 in BTC
 dash.info.balancedetails.currencydist=Currency Dist.
+
+# /dashboard/#/payment :: Dashboard Payment
+dash.payment.info.title=Payment Info
+dash.payment.info.viewmore=View More
+dash.payment.info.close=Close
+
+dash.payment.info.methods.title=Payment Methods:
+dash.payment.info.methods.desc.start=Hey there, we currently only accept Bitcoin as payment for debts. If you own a Coinbase account, you can also pay in USD. If you have a problem with the payments please contact us on our
+dash.payment.info.methods.desc.end=or email us at
+dash.payment.info.methods.desc.list.one=Referrals will earn a 0.5% charge reduction if the referred user's spent and unspent credits total over 0.025 BTC
+dash.payment.info.methods.desc.list.two=A charge reduction of 0.1% will be applied for every 0.01 BTC deposited
+dash.payment.info.methods.tooltip=Other discount types are not capped
+dash.payment.info.methods.refpaydisc=Referral and Payment discounts are combined and are capped at 3.5%.
+dash.payment.info.methods.add=Add Credits
+
+dash.payment.info.userinfo.title=Updated Info
+dash.payment.info.userinfo.tdebt=Total Debt:
+dash.payment.info.userinfo.ucred=Unspent Credit:
+dash.payment.info.userinfo.scred=Spent Credit:
+dash.payment.info.userinfo.charge=HODL.ZONE Charge:
+dash.payment.info.userinfo.referalcode=Referral Code <small>(your code to share)</small>:
+dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
+dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
+
+dash.payment.info.plog.title=User Payment Logs
+dash.payment.info.plog.notfound=No payments found.
+
+dash.payment.info.dlog.title=User Debt Logs
+dash.payment.info.dlog.desc=All charges are calculated at the current charge rate on the account. If a discount is applied, it will only affect new debts, not the existing.
+dash.payment.info.dlog.notfound=No debts found.
+
+dash.payment.info.pmodal.title=Detailed Payment Information
+dash.payment.info.pmodal.code=Code
+dash.payment.info.pmodal.credited=Credited
+dash.payment.info.pmodal.contacted=Contacted
+dash.payment.info.pmodal.coinbasepaymentdate=Coinbase Payment Date:
+dash.payment.info.pmodal.hodlpaymentdate=HODL.ZONE Payment Date:
+dash.payment.info.pmodal.paymentamount=Payment Amount
+dash.payment.info.pmodal.receipt=Coinbase Receipt
+
+dash.payment.info.dmodal.title=Detailed Payment Information
+dash.payment.info.dmodal.exch=Exchange
+dash.payment.info.dmodal.loanopendate=Loan Opened
+dash.payment.info.dmodal.loandate=Loan Closed
+dash.payment.info.dmodal.cur=Currency
+dash.payment.info.dmodal.amountloaned=Amount Loaned
+dash.payment.info.dmodal.dailyinterestrate=Daily Interest Rate
+dash.payment.info.dmodal.grossamountearned=Gross Amount Earned
+dash.payment.info.dmodal.grossbtcamountearned=Gross BTC Amount Earned
+dash.payment.info.dmodal.hodlzonechargerate=HODL.ZONE Charge Rate
+dash.payment.info.dmodal.hodlzonecharge=HODL.ZONE Charge
+dash.payment.info.dmodal.amountpaid=Amount Paid
+dash.payment.info.dmodal.fullypaid=Fully Paid
+
+dash.payment.info.rmodal.title=Detailed Reduction History Information
+
+dash.payment.info.rmodal.upayreduc.title=User Payment Reduction
+dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC = 0.1% reduction.
+dash.payment.info.rmodal.upayreduc.none=No User Payment reductions.
+dash.payment.info.rmodal.upayreduc.received.start=You have received
+dash.payment.info.rmodal.upayreduc.received.end=reduction
+
+dash.payment.info.rmodal.upayref.title=User Referral Reduction
+dash.payment.info.rmodal.upayref.none=No User Referrals found.
+dash.payment.info.rmodal.upayref.desc=This is a complete list of all the user referrals that have reached the minimum that will.<br>Total:
+
+dash.payment.info.rmodal.ucustreduc.title=Custom Reductions
+dash.payment.info.rmodal.ucustreduc.none=No Custom Reductions found.
+dash.payment.info.rmodal.ucustreduc.desc=This is a complete list of all the custom reductions we have on record.<br>Total:
