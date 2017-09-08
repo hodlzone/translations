@@ -215,3 +215,34 @@ dash.payment.info.rmodal.upayref.desc=This is a complete list of all the user re
 dash.payment.info.rmodal.ucustreduc.title=Custom Reductions
 dash.payment.info.rmodal.ucustreduc.none=No Custom Reductions found.
 dash.payment.info.rmodal.ucustreduc.desc=This is a complete list of all the custom reductions we have on record.<br>Total:
+
+# /dashboard#/deposit :: Dashboard Deposit
+dash.deposit.title=Deposit
+dash.deposit.desc=Adding credits to your HODL.ZONE bot.
+
+dash.deposit.refundpolicy.title=Refund Policy (No Refund)
+dash.deposit.refundpolicy.one=All products are sold “as is”. You assume the responsibility for your purchase, and no refunds will be issued. Any unspent credits will remain on your account until further loans are placed and debt is accumulated.
+
+dash.deposit.disclaimer.title=Disclaimer
+dash.deposit.disclaimer.one=By depositing credits, you allow HODL.ZONE to make loans to margin traders on your behalf. These credits will be automatically used to pay the debt accumulated by the bots actions. The debt will be accrued at the maximum rate of 10% of the gross profits per loan at the time of the loan closing. For currencies other than BTC, the BTC value of the token will be taken at the time of the debt being issued. If your account runs out of credits, HODL.ZONE reserves the right to cease all lending action until more credits are added.
+dash.deposit.disclaimer.two=HODL.ZONE will count any loan closing after the lending is enabled as a loan created by HODL.ZONE. Any loans created by the user while the bot is enabled, will still accrue debt. This means, if you plan to do manual lending, disable the bot immediately, or you will be charged.
+dash.deposit.disclaimer.three=In the event you disagree with the debts being accumulated, disable lending immediatly and contact support@hodl.zone. In the event unfair debt was accrued	, HODL.ZONE may issue credits to our discretion, but at no point will issue any refunds.
+
+dash.deposit.paymentproc.title=Payment Processing
+dash.deposit.paymentproc.one=All payments will be recorded in BTC value, as that is how all debt is charged. All payments must be done in BTC, however if you own a Coinbase account, you may use USD, and it will be converted to it's BTC value.
+dash.deposit.paymentproc.two=Be sure to double check the amount selected before finializing any payments. It is a custom field with a few suggested amounts. Although any amount can be inputted, the user is responsible for any transaction fees (if using Coinbase account, there is none).
+
+dash.deposit.howmuch.title=How much to deposit?
+dash.deposit.howmuch.one=Deposits should be carefully thought about, as they are non-refundable. All deposits add credit to your account, which will be used to pay off the accumulating debt and allow the bot to continue to function. This means you should deposit enough to cover the running costs for the amount of time you wish the bot to run. You can always add more funds later. You can get an estimate on the amount you will be making
+dash.deposit.howmuch.here=here
+
+dash.deposit.coinbasecust.title=Coinbase Customers
+dash.deposit.coinbasecust.one=Owning a Coinbase account is the best way to make deposits to HODL.ZONE, as there are no fees. Coinbase customers can make micro deposits, making it easier to decide how much to deposit at a time, as very small amounts are allowed.
+
+dash.deposit.paywithbtc.title=Paying with BTC
+dash.deposit.paywithbtc.one=When depositing BTC, you should keep in mind the fees around a bitcoin transaction. We reccomend getting a Coinbase account, as if you pay with a Coinbase account, there are no fees, and you can deposit as little BTC as you want. When depositing BTC, you have to cover the cost of the transaction, making small deposits much more expensive.
+
+dash.deposit.loading=Loading...
+dash.deposit.boxdesc=By checking this box you accept to the Refund Policy and Disclaimer
+dash.deposit.paythr=Pay Through Coinbase
+dash.deposit.accountcredit=is the account to be credited
