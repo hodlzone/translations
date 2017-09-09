@@ -1,7 +1,7 @@
 # General
-general.button.apply=Apply
-general.Button.clear=Clear
-general.Button.delete=Delete
+general.button.apply=申請
+general.Button.clear=清除
+general.Button.delete=刪除
 
 
 # /contact :: Contact section
@@ -37,19 +37,19 @@ index.body.slack.description=讓我們親自向您提供幫助，使您的問題
 index.body.slack.signup=註冊
 index.body.bottom.row.one=出借您的貨幣其實很容易
 index.body.bottom.row.one_text=跟著我們的步驟
-index.body.bottom.row.one_msg=Information
-index.body.bottom.row.two=Still don't get it?
-index.body.bottom.row.two_text=We get these alot
-index.body.bottom.row.three=What goes on
-index.body.bottom.row.three_text=behind the scenes?
+index.body.bottom.row.one_msg=詳細資訊
+index.body.bottom.row.two=還是沒搞懂嗎?
+index.body.bottom.row.two_text=也許這些能回答你
+index.body.bottom.row.three=來看看我們的
+index.body.bottom.row.three_text=幕後花絮
 index.body.bottom.row.three_msg=Blog
-index.body.news.header=Stay in Touch
-index.body.news.desc=Sign up for our newsletter
-index.body.news.button=Go!
+index.body.news.header=不要錯過我們的新聞
+index.body.news.desc=訂閱我們的電子報
+index.body.news.button=訂閱!
 
 # / :: Footer
-footer.support=Support
-footer.contact=Contact
+footer.support=支援
+footer.contact=聯絡我們
 
 # / :: Modal Login/Register 
 index.header.modal.error=錯誤!
@@ -64,7 +64,7 @@ index.header.modal.registernew=註冊新帳號
 index.header.modal.confirmpass=確認密碼
 index.header.modal.invitecode=邀請碼
 index.header.modal.register=註冊
-index.header.modal.ref=Referral Code
+index.header.modal.ref=推薦碼
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
@@ -140,7 +140,7 @@ dash.info.currentbtcnotlent=尚未成功出借 單位:BTC
 dash.info.availablebtclent=已出借百分比 單位:BTC
 dash.info.fromyesterday=跟昨天比較
 
-dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
+dash.info.botlendact.title=出借機器人運行中<small> 機器人運行狀況.</small>
 dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
 
 dash.info.lendhalt.reason=Lending Halted! Reason:
