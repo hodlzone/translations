@@ -1,3 +1,9 @@
+# General
+general.button.apply=Apply
+general.Button.clear=Clear
+general.Button.delete=Delete
+
+
 # /contact :: Contact section
 contact.header=聯絡我們
 contact.description=同為虛擬貨幣玩家,我們了解您的擔心與顧慮，所以請不吝聯繫我們，告訴我們您遇到的問題或顧忌，您可以寫email或透過我們的slack社群，如果您的問題急於答覆，請在slack社群上聯繫我們。
@@ -5,8 +11,6 @@ contact.joinslack=加入我們的 Slack社群
 contact.emailus=寫信給我們: support@hodl.zone
 contact.sectiondescription=同為虛擬貨幣持有者的HODL.ZONE創辦成員。
 contact.leaddeveloper=創辦人
-
-
 
 # / :: Header Navbar
 index.header.faq=常見問題
@@ -215,6 +219,45 @@ dash.payment.info.rmodal.upayref.desc=This is a complete list of all the user re
 dash.payment.info.rmodal.ucustreduc.title=Custom Reductions
 dash.payment.info.rmodal.ucustreduc.none=No Custom Reductions found.
 dash.payment.info.rmodal.ucustreduc.desc=This is a complete list of all the custom reductions we have on record.<br>Total:
+
+# /dashboard#/settings/lending :: Lending Settings
+dash.settings.lending.bitfinwarn=Currently Bitfinex is not fully supported. There will be no charge for Bitfinex profits, and all lending will be at the FRR rate.
+dash.settings.lending.api=Input your API keys assosicated with your {{getExchangeName()}} account. You can create a new set of API keys here:
+dash.settings.lending.apikey=API Key
+dash.settings.lending.seckey=Secret
+dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
+dash.settings.enable.min-label=Miniumum Loan Rate
+
+# /dashboard#/settings/user :: User Settings
+dash.settings.user.2fa=Two Factor Authentication
+dash.settings.user.2fa.current=Currently 2FA is
+# This refers to a 2fa Token that is needed for input
+dash.settings.user.2fa.token=Token
+dash.settings.user.2fa.header=Create Two Factor Authentication
+dash.settings.user.2fa.info=By activating two factor authenitcation, you will be no longer able to log in without a password. Be careful when selecting this, as losing your two factor authentication also loses access to your account. 
+dash.settings.user.2fa.create=Create 2FA
+dash.settings.user.2fa.create_new=Create New 2FA
+dash.settings.user.qr=QRCode
+dash.settings.user.qr.info=Scan this QR code with your Google Authenticator. Once you leave this page, this will never be displayed again, it might be wise to print this page out. Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
+dash.settings.user.2fa.password=Only a password is required to create a new 2FA
+dash.settings.user.email.verify=Verify Email
+dash.settings.user.email.verify.ask=Please verify your email!
+dash.settings.user.password.change=Change Password
+dash.settings.user.password.current=Current Password
+dash.settings.user.password.new=New Password
+dash.settings.user.password.confirm=Confirm New Password
+dash.settings.user.password.match=passwords must match
+dash.settings.user.ref.set=Set Referee
+dash.settings.user.ref.enter=Please enter in referee code.
+dash.settings.user.ref=Referee
+dash.settings.user.session.extend=Extend Time Waited between Sessions
+dash.settings.user.session.update=Update Session Alive Time
+dash.settings.user.session.active=Active Sessions
+dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
+dash.settings.user.session.none=No active active sessions open besides current session.
+
+
+
 
 # /dashboard#/deposit :: Dashboard Deposit
 dash.deposit.title=Deposit

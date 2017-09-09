@@ -1,6 +1,8 @@
 # General
 general.button.apply=Apply
 general.Button.clear=Clear
+general.Button.delete=Delete
+
 
 # /contact :: Contact section
 contact.header=Contact Us
@@ -252,6 +254,7 @@ dash.settings.user.session.extend=Extend Time Waited between Sessions
 dash.settings.user.session.update=Update Session Alive Time
 dash.settings.user.session.active=Active Sessions
 dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
+dash.settings.user.session.none=No active active sessions open besides current session.
 
 
 
