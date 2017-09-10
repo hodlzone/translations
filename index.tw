@@ -141,10 +141,10 @@ dash.info.availablebtclent=已出借百分比 單位:BTC
 dash.info.fromyesterday=跟昨天比較
 
 dash.info.botlendact.title=出借機器人運行中<small> 機器人運行狀況.</small>
-dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
+dash.info.botlendact.desc=HODL此為機器人已完成的工作清單，請小心核對您的交易資料。
 
-dash.info.lendhalt.reason=Lending Halted! Reason:
-dash.info.lendhalt.warning=Lending Warning!
+dash.info.lendhalt.reason=出借終止! 原因:
+dash.info.lendhalt.warning=Lending 警告!
 
 dash.info.balancedetails.title=Balance Details
 dash.info.balancedetails.breakdown=Breakdown of your total lending balances in their BTC value. 
@@ -152,11 +152,11 @@ dash.info.balancedetails.topfive=Top 5 in BTC
 dash.info.balancedetails.currencydist=Currency Dist.
 
 # /dashboard/#/payment :: Dashboard Payment
-dash.payment.info.title=Payment Info
-dash.payment.info.viewmore=View More
-dash.payment.info.close=Close
+dash.payment.info.title=儲值資訊
+dash.payment.info.viewmore=查看更多
+dash.payment.info.close=關閉
 
-dash.payment.info.methods.title=Payment Methods:
+dash.payment.info.methods.title=儲值方法:
 dash.payment.info.methods.desc.start=Hey there, we currently only accept Bitcoin as payment for debts. If you own a Coinbase account, you can also pay in USD. If you have a problem with the payments please contact us on our
 dash.payment.info.methods.desc.end=or email us at
 dash.payment.info.methods.desc.list.one=Referrals will earn a 0.5% charge reduction if the referred user's spent and unspent credits total over 0.025 BTC
@@ -165,23 +165,23 @@ dash.payment.info.methods.tooltip=Other discount types are not capped
 dash.payment.info.methods.refpaydisc=Referral and Payment discounts are combined and are capped at 3.5%.
 dash.payment.info.methods.add=Add Credits
 
-dash.payment.info.userinfo.title=Updated Info
-dash.payment.info.userinfo.tdebt=Total Debt:
-dash.payment.info.userinfo.ucred=Unspent Credit:
-dash.payment.info.userinfo.scred=Spent Credit:
+dash.payment.info.userinfo.title=更新資訊
+dash.payment.info.userinfo.tdebt=總債務:
+dash.payment.info.userinfo.ucred=未使用餘點數:
+dash.payment.info.userinfo.scred=已花費點數:
 dash.payment.info.userinfo.charge=HODL.ZONE Charge:
-dash.payment.info.userinfo.referalcode=Referral Code <small>(your code to share)</small>:
+dash.payment.info.userinfo.referalcode=推薦碼 <small>(您的推薦碼)</small>:
 dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
 dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
 
-dash.payment.info.plog.title=User Payment Logs
+dash.payment.info.plog.title=用戶儲值紀錄
 dash.payment.info.plog.notfound=No payments found.
 
 dash.payment.info.dlog.title=User Debt Logs
 dash.payment.info.dlog.desc=All charges are calculated at the current charge rate on the account. If a discount is applied, it will only affect new debts, not the existing.
 dash.payment.info.dlog.notfound=No debts found.
 
-dash.payment.info.pmodal.title=Detailed Payment Information
+dash.payment.info.pmodal.title=Detailed 儲值資訊
 dash.payment.info.pmodal.code=Code
 dash.payment.info.pmodal.credited=Credited
 dash.payment.info.pmodal.contacted=Contacted
@@ -279,7 +279,7 @@ dash.deposit.howmuch.title=How much to deposit?
 dash.deposit.howmuch.one=Deposits should be carefully thought about, as they are non-refundable. All deposits add credit to your account, which will be used to pay off the accumulating debt and allow the bot to continue to function. This means you should deposit enough to cover the running costs for the amount of time you wish the bot to run. You can always add more funds later. You can get an estimate on the amount you will be making
 dash.deposit.howmuch.here=here
 
-dash.deposit.coinbasecust.title=Coinbase Customers
+dash.deposit.coinbasecust.title=Coinbase 用戶
 dash.deposit.coinbasecust.one=Owning a Coinbase account is the best way to make deposits to HODL.ZONE, as there are no fees. Coinbase customers can make micro deposits, making it easier to decide how much to deposit at a time, as very small amounts are allowed.
 
 dash.deposit.paywithbtc.title=Paying with BTC
