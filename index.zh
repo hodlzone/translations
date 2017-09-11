@@ -65,6 +65,7 @@ index.header.modal.confirmpass=确认密码
 index.header.modal.invitecode=邀请码
 index.header.modal.register=注册
 index.header.modal.ref=推荐码
+index.header.modal.passnotmatch=passwords do not match
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
@@ -99,20 +100,22 @@ faq.answer_9=利率每天都不断变化，有时您可以每天获得本金的0
 faq.question_10=如果我的资金被绑在比特币以外的货币怎么办？
 faq.answer_10=虽然我们主要重点放在比特币的借贷，但同时我们也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但请别忘记，我们的重点放在比特币BTC，如果您持有的是比特币以外的货币，我们可能还没有优化该货币的演算法，但是，我们一直朝这个方向努力，希望能尽可能地满足各种货币的持有者，最大化大家的收益。
 
+
 # /newpass/request :: New Password Requests
 newpass.input_password=填入新密码
 newpass.new_password=新密码
 newpass.input_email=填入你的信箱
 newpass.email_success=确认信已送出，请确认用户资料正确。
-
+newpass.congrats=Congrats! Your password has been changed!
+newpass.dead=Oh no, the link you send is dead :( You will have to make a new request.
 
 # Verified
 verified.email_sucess=信箱认证成功
 
-＃/ donate ::捐赠部分
+#/ donate ::捐赠部分
 donate.description=我们为了增加你的收益做了许多努力，如果你觉得我们做得不错，想对我们表达支持，感谢或鼓励，欢迎您赞助我们一些比特币:)
 
-＃/ dashboard ::仪表板SideNav
+#/ dashboard ::仪表板SideNav
 dash.sidenav.home=首页
 dash.sidenav.settings=设定
 dash.sidenav.usersettings=用户设定
@@ -343,3 +346,20 @@ dash.cur.lendamount.title=Last Month {{coin}} Lending Amounts
 dash.cur.lendamount.desc=Here shows the amount of crypto that was being lent, and not being lent throughout the last month.
 dash.cur.lendamount.loading=Loading detailed lending history... this may take a moment.
 dash.cur.lendamount.none=No Lending BTC Monthly Lending Amount Found.
+
+# Generic Errors
+error.internal=Internal Error. Please contact support at: support@hodl.zone
+
+# /register :: Register Response with errors
+error.register.invalidreferral=Referral code invalid.
+error.register.useralreadyexists=Username already exists.
+error.register.emailvalidate=Email failed to validate.
+error.register.failedtocreate=Failed to create user. Please try again.
+
+# /login :: Login Response with errors
+error.login.invalidauth=Invalid username, password or 2fa, please try again.
+
+# /dashboard/settings/setreferee :: Set Referee with Errors
+error.setreferee.doesnotexist=The referee code entered does not exist.
+error.setreferee.alreadyset=Your referee code has already been set.
+error.setreferee.sameasyours=You can not set your code as referee code.

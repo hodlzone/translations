@@ -65,6 +65,7 @@ index.header.modal.confirmpass=確認密碼
 index.header.modal.invitecode=邀請碼
 index.header.modal.register=註冊
 index.header.modal.ref=推薦碼
+index.header.modal.passnotmatch=passwords do not match
 
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
@@ -105,7 +106,8 @@ newpass.input_password=填入新密碼
 newpass.new_password=新密碼
 newpass.input_email=填入你的信箱
 newpass.email_success=確認信已送出，請確認用戶資料正確。
-
+newpass.congrats=Congrats! Your password has been changed!
+newpass.dead=Oh no, the link you send is dead :( You will have to make a new request.
 
 # Verified
 verified.email_sucess=信箱認證成功
@@ -344,3 +346,20 @@ dash.cur.lendamount.title=Last Month {{coin}} Lending Amounts
 dash.cur.lendamount.desc=Here shows the amount of crypto that was being lent, and not being lent throughout the last month.
 dash.cur.lendamount.loading=Loading detailed lending history... this may take a moment.
 dash.cur.lendamount.none=No Lending BTC Monthly Lending Amount Found.
+
+# Generic Errors
+error.internal=Internal Error. Please contact support at: support@hodl.zone
+
+# /register :: Register Response with errors
+error.register.invalidreferral=Referral code invalid.
+error.register.useralreadyexists=Username already exists.
+error.register.emailvalidate=Email failed to validate.
+error.register.failedtocreate=Failed to create user. Please try again.
+
+# /login :: Login Response with errors
+error.login.invalidauth=Invalid username, password or 2fa, please try again.
+
+# /dashboard/settings/setreferee :: Set Referee with Errors
+error.setreferee.doesnotexist=The referee code entered does not exist.
+error.setreferee.alreadyset=Your referee code has already been set.
+error.setreferee.sameasyours=You can not set your code as referee code.
