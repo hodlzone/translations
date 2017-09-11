@@ -207,7 +207,7 @@ dash.payment.info.dmodal.fullypaid=Fully Paid
 dash.payment.info.rmodal.title=Detailed Reduction History Information
 
 dash.payment.info.rmodal.upayreduc.title=User Payment Reduction
-dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC = 0.1% reduction.
+dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC= 0.1% reduction.
 dash.payment.info.rmodal.upayreduc.none=No User Payment reductions.
 dash.payment.info.rmodal.upayreduc.received.start=You have received
 dash.payment.info.rmodal.upayreduc.received.end=reduction

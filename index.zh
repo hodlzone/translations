@@ -7,8 +7,8 @@ general.Button.delete=删除
 # /contact :: Contact section
 contact.header=联络我们
 contact.description=同为虚拟货币玩家，我们了解您的担心与顾虑，所以请不吝联系我们，告诉我们您遇到的问题或顾忌，您可以写电子邮件或透过我们的松弛社群，如果您的问题急于答覆，请在松弛社群上联系我们。
-contact.joinslack =加入我们的Slack社群
-contact.emailus =写信给我们：support@hodl.zone
+contact.joinslack=加入我们的Slack社群
+contact.emailus=写信给我们：support@hodl.zone
 contact.sectiondescription=同为虚拟货币持有者的HODL.ZONE创办成员。
 contact.leaddeveloper=创办人
 
@@ -22,21 +22,21 @@ index.header.dash=控制页面
 index.hero.slogan=透过利滚利，放大您持有的数位资产
 index.hero.start_button=开始出借
 
-index.body.grow_heading =让你持有的资金变多
-index.body.grow_text =银行利用你的储蓄放款给投资人来赚取利率，同理，您也可以出借您的数位货币来赚取利润
-index.body.whatis =什么是HODL.ZONE？
-index.body.whatis_text =数位货币的出借利率每个小时都在变动，我们透过演算法和机器人，让您能自动的出借当前最好的利率
-index.body.hodlfunds =我们并不会经手您的任何本金
-index.body.hodlfunds_text = HODL.ZONE并不能从你的帐号提取任何资金，你必须要先在Poloniex（俗称P网）储值资金，然后开放有限的权限（不能提存款）给我们的网站，让我们能为您操作赚取利率。
-index.body.earnings =我能获得多少利润？
-index.body.calculator =使用历史利率，来估计您将会获利多少
-index.body.calculator.amount =比特币BTC数量
-index.body.calculator.time =周
-index.body.slack.join =加入我们的松弛社群
-index.body.slack.description =让我们亲自向您提供帮助，使您的问题能更快找到答案，也欢迎您向我们提出任何意见及回馈
-index.body.slack.signup =注册
-index.body.bottom.row.one =出借您的货币其实很容易
-index.body.bottom.row.one_text =跟着我们的步骤
+index.body.grow_heading=让你持有的资金变多
+index.body.grow_text=银行利用你的储蓄放款给投资人来赚取利率，同理，您也可以出借您的数位货币来赚取利润
+index.body.whatis=什么是HODL.ZONE？
+index.body.whatis_text=数位货币的出借利率每个小时都在变动，我们透过演算法和机器人，让您能自动的出借当前最好的利率
+index.body.hodlfunds=我们并不会经手您的任何本金
+index.body.hodlfunds_text= HODL.ZONE并不能从你的帐号提取任何资金，你必须要先在Poloniex（俗称P网）储值资金，然后开放有限的权限（不能提存款）给我们的网站，让我们能为您操作赚取利率。
+index.body.earnings=我能获得多少利润？
+index.body.calculator=使用历史利率，来估计您将会获利多少
+index.body.calculator.amount=比特币BTC数量
+index.body.calculator.time=周
+index.body.slack.join=加入我们的松弛社群
+index.body.slack.description=让我们亲自向您提供帮助，使您的问题能更快找到答案，也欢迎您向我们提出任何意见及回馈
+index.body.slack.signup=注册
+index.body.bottom.row.one=出借您的货币其实很容易
+index.body.bottom.row.one_text=跟着我们的步骤
 index.body.bottom.row.one_msg=详细资讯
 index.body.bottom.row.two=还是没搞懂吗？
 index.body.bottom.row.two_text=也许这些能回答你
@@ -69,35 +69,35 @@ index.header.modal.ref=推荐码
 # /faq :: Frequently Asked Questions
 faq.title=Frequently Asked Questions
 
-faq.question_1 =什么是HODL？你是在说HOLD吗？
-faq.answer_1 = Hodl一词源自于比特币刚发迹的时候，讽刺人们不应该在比特币价值上下波动时，轻易将其出售，相反的应该持有并HOLD住它。在过去8年里，比特币的价格爆炸性的飙升，如果你一直抱到现在，肯定获利不少。
+faq.question_1=什么是HODL？你是在说HOLD吗？
+faq.answer_1= Hodl一词源自于比特币刚发迹的时候，讽刺人们不应该在比特币价值上下波动时，轻易将其出售，相反的应该持有并HOLD住它。在过去8年里，比特币的价格爆炸性的飙升，如果你一直抱到现在，肯定获利不少。
 
-faq.question_2 =什么是HODL.ZONE？
-faq.answer_2 = HODL.ZONE是一个利用Poloniex（俗称P网）出借系统(lending system)增加你数位货币资产的网站。
+faq.question_2=什么是HODL.ZONE？
+faq.answer_2= HODL.ZONE是一个利用Poloniex（俗称P网）出借系统(lending system)增加你数位货币资产的网站。
 
-faq.question_3 =什么是出借(lending)？
-faq.answer_3 =交易者可以透过与其他用户借款，进行货币交易来增加利润（和损失）。借贷双方为了鼓励用户借贷数位货币，提高他们对这笔贷款兴趣这些出借利率随着每天交易活动，价格和消息而变化。
+faq.question_3=什么是出借(lending)？
+faq.answer_3=交易者可以透过与其他用户借款，进行货币交易来增加利润（和损失）。借贷双方为了鼓励用户借贷数位货币，提高他们对这笔贷款兴趣这些出借利率随着每天交易活动，价格和消息而变化。
 
-faq.question_4 =出借安全吗？
-faq.answer_4 =通常放款时，您必须承担和担心对方违约的风险，但幸运的是，Poloniex可以防止这种情况发生，借款人必须先抵押本金，如果他的本金接近违约时该给付的金额，系统就会强制将其自动清算，也就是说出借方并不会有任何损失。
+faq.question_4=出借安全吗？
+faq.answer_4=通常放款时，您必须承担和担心对方违约的风险，但幸运的是，Poloniex可以防止这种情况发生，借款人必须先抵押本金，如果他的本金接近违约时该给付的金额，系统就会强制将其自动清算，也就是说出借方并不会有任何损失。
 
-faq.question_5 =那么，要怎么出借你的资金呢？
-faq.answer_5 =您可以透过将资金从您的交易帐户（Exchange）转移到您的Poloniex的出借(Lending)帐户来进行放款，并藉借设置利息的高低来吸引其他用户向你借款，而这些贷款持续的周期可能短到以秒为单位，或是长达60天之久（我们网站设定最大的出借天数为两天，好处就是你的资金永远不会被绑住太久），这使得手动挂单出借显得很没有效率和困难，因为你没办法预测借款者会不会提早还款，也就是说，每当你检查你的帐户，你可能会发现有资金闲置（被提早还款），这也就是就是为什么使用HODL.ZONE这样的自动化服务，可以透过不断自动挂单出借你的资金，最大化你的利益，而不是让你的资金闲置在那里。
+faq.question_5=那么，要怎么出借你的资金呢？
+faq.answer_5=您可以透过将资金从您的交易帐户（Exchange）转移到您的Poloniex的出借(Lending)帐户来进行放款，并藉借设置利息的高低来吸引其他用户向你借款，而这些贷款持续的周期可能短到以秒为单位，或是长达60天之久（我们网站设定最大的出借天数为两天，好处就是你的资金永远不会被绑住太久），这使得手动挂单出借显得很没有效率和困难，因为你没办法预测借款者会不会提早还款，也就是说，每当你检查你的帐户，你可能会发现有资金闲置（被提早还款），这也就是就是为什么使用HODL.ZONE这样的自动化服务，可以透过不断自动挂单出借你的资金，最大化你的利益，而不是让你的资金闲置在那里。
 
-faq.question_6 =那..为什么要选HODL.ZONE呢？
-faq.answer_6 =由于市场利率波动无常，所以我们透过不断记录贷款利率的统计资料，来决定最佳利率，因为我们的目标不仅仅是最大限度地延长出借的时间，还有出借时的利息。
+faq.question_6=那..为什么要选HODL.ZONE呢？
+faq.answer_6=由于市场利率波动无常，所以我们透过不断记录贷款利率的统计资料，来决定最佳利率，因为我们的目标不仅仅是最大限度地延长出借的时间，还有出借时的利息。
 
-faq.question_7 =我可以信任HODL.ZONE吗？
-faq.answer_7 =当设定我们通过API辅助您的帐户时，您可以透过限制API的权限来防止我们提取您的货币，降低您我损失的风险。我们是一群虚拟货币持有者，创建并提供服务给其他加密货币玩家，而这一切都将建立在信任的基础上，所以我们开放我们的身份，并在时差上建立一个开放及公开的沟通管道，如果您有任何疑问及疑虑，请随时与我们联系及讨论，我们非常重视您们的意见及反馈。
+faq.question_7=我可以信任HODL.ZONE吗？
+faq.answer_7=当设定我们通过API辅助您的帐户时，您可以透过限制API的权限来防止我们提取您的货币，降低您我损失的风险。我们是一群虚拟货币持有者，创建并提供服务给其他加密货币玩家，而这一切都将建立在信任的基础上，所以我们开放我们的身份，并在时差上建立一个开放及公开的沟通管道，如果您有任何疑问及疑虑，请随时与我们联系及讨论，我们非常重视您们的意见及反馈。
 
-faq.question_8 =我可以相信Poloniex吗？我自己不是也可以保管比特币？
-faq.answer_8 =在交易所存放虚拟货币的确有一定的风险，我们不是在告诉大家Poloniex是储存资金多好多棒的地方，只是，当你在Poloniex上储存资金，透过出借的等等的方式，可以让您的资产增加，而单纯的储存在钱包里是不会生产任何利息的。
+faq.question_8=我可以相信Poloniex吗？我自己不是也可以保管比特币？
+faq.answer_8=在交易所存放虚拟货币的确有一定的风险，我们不是在告诉大家Poloniex是储存资金多好多棒的地方，只是，当你在Poloniex上储存资金，透过出借的等等的方式，可以让您的资产增加，而单纯的储存在钱包里是不会生产任何利息的。
 
-faq.question_9 =那么..可以获利多少钱呢？
-faq.answer_9 =利率每天都不断变化，有时您可以每天获得本金的0.5％，但是有时也可能变得很低。首页上的计算器是使用BTC贷款的月平均利率，所以有兴趣的话可以尝试一下。我们正持续不断努力，期望能够在未来提供您更多有利的资讯。
+faq.question_9=那么..可以获利多少钱呢？
+faq.answer_9=利率每天都不断变化，有时您可以每天获得本金的0.5％，但是有时也可能变得很低。首页上的计算器是使用BTC贷款的月平均利率，所以有兴趣的话可以尝试一下。我们正持续不断努力，期望能够在未来提供您更多有利的资讯。
 
-faq.question_10 =如果我的资金被绑在比特币以外的货币怎么办？
-faq.answer_10 =虽然我们主要重点放在比特币的借贷，但同时我们也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但请别忘记，我们的重点放在比特币BTC，如果您持有的是比特币以外的货币，我们可能还没有优化该货币的演算法，但是，我们一直朝这个方向努力，希望能尽可能地满足各种货币的持有者，最大化大家的收益。
+faq.question_10=如果我的资金被绑在比特币以外的货币怎么办？
+faq.answer_10=虽然我们主要重点放在比特币的借贷，但同时我们也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但请别忘记，我们的重点放在比特币BTC，如果您持有的是比特币以外的货币，我们可能还没有优化该货币的演算法，但是，我们一直朝这个方向努力，希望能尽可能地满足各种货币的持有者，最大化大家的收益。
 
 # /newpass/request :: New Password Requests
 newpass.input_password=填入新密码
@@ -134,9 +134,9 @@ dash.topnav.time=？国际协调时间(UTC Time):
 
 # /dashboard :: Dashboard Info
 dash.info.currentlendrate=当前出借利率
-dash.info.currentbtclent =出借中单位：BTC
-dash.info.currentbtcnotlent =尚未成功出借单位：BTC
-dash.info.availablebtclent =已出借百分比单位：BTC
+dash.info.currentbtclent=出借中单位：BTC
+dash.info.currentbtcnotlent=尚未成功出借单位：BTC
+dash.info.availablebtclent=已出借百分比单位：BTC
 dash.info.fromyesterday=跟昨天比较
 
 dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
@@ -206,7 +206,7 @@ dash.payment.info.dmodal.fullypaid=Fully Paid
 dash.payment.info.rmodal.title=Detailed Reduction History Information
 
 dash.payment.info.rmodal.upayreduc.title=User Payment Reduction
-dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC = 0.1% reduction.
+dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC= 0.1% reduction.
 dash.payment.info.rmodal.upayreduc.none=No User Payment reductions.
 dash.payment.info.rmodal.upayreduc.received.start=You have received
 dash.payment.info.rmodal.upayreduc.received.end=reduction

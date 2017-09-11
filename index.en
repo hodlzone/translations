@@ -106,7 +106,8 @@ newpass.input_password=Input your new password
 newpass.new_password=New Password
 newpass.input_email=Input your email address
 newpass.email_success=An email has been sent if user exists.
-
+newpass.congrats=Congrats! Your password has been changed!
+newpass.dead=Oh no, the link you send is dead :( You will have to make a new request.
 
 # Verified
 verified.email_sucess=Successfully verified email
@@ -208,7 +209,7 @@ dash.payment.info.dmodal.fullypaid=Fully Paid
 dash.payment.info.rmodal.title=Detailed Reduction History Information
 
 dash.payment.info.rmodal.upayreduc.title=User Payment Reduction
-dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC = 0.1% reduction.
+dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC= 0.1% reduction.
 dash.payment.info.rmodal.upayreduc.none=No User Payment reductions.
 dash.payment.info.rmodal.upayreduc.received.start=You have received
 dash.payment.info.rmodal.upayreduc.received.end=reduction
@@ -354,6 +355,9 @@ error.register.invalidreferral=Referral code invalid.
 error.register.useralreadyexists=Username already exists.
 error.register.emailvalidate=Email failed to validate.
 error.register.failedtocreate=Failed to create user. Please try again.
+
+# /login :: Login Response with errors
+error.login.invalidauth=Invalid username, password or 2fa, please try again.
 
 # /dashboard/settings/setreferee :: Set Referee with Errors
 error.setreferee.doesnotexist=The referee code entered does not exist.
