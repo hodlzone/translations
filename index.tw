@@ -179,9 +179,9 @@ dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee c
 dash.payment.info.plog.title=用戶儲值紀錄
 dash.payment.info.plog.notfound=沒有付款資訊
 
-dash.payment.info.dlog.title =用戶帳務日誌
-dash.payment.info.dlog.desc =所有費用均按帳戶的當前費率計算。如果已達成折扣條件，只會影響新的帳單，而不是現有的帳單。
-dash.payment.info.dlog.notfound =沒有發現帳單。
+dash.payment.info.dlog.title=用戶帳務日誌
+dash.payment.info.dlog.desc=所有費用均按帳戶的當前費率計算。如果已達成折扣條件，只會影響新的帳單，而不是現有的帳單。
+dash.payment.info.dlog.notfound=沒有發現帳單。
 
 dash.payment.info.pmodal.title=詳細儲值資訊
 dash.payment.info.pmodal.code=Code
