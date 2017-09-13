@@ -107,7 +107,7 @@ newpass.new_password=新密码
 newpass.input_email=填入你的信箱
 newpass.email_success=确认信已送出，请确认用户资料正确。
 newpass.congrats=恭喜！您的密码已成功变更！
-newpass.dead =喔不，你传送的连结已经失效:(请再重新过
+newpass.dead=喔不，你传送的连结已经失效:(请再重新过
 
 # Verified
 verified.email_sucess=信箱认证成功
@@ -142,48 +142,48 @@ dash.info.currentbtcnotlent=尚未成功出借单位：BTC
 dash.info.availablebtclent=已出借百分比单位：BTC
 dash.info.fromyesterday=跟昨天比较
 
-dash.info.botlendact.title =出借机器人运行中<small>机器人运行状况。</small>
+dash.info.botlendact.title=出借机器人运行中<small>机器人运行状况。</small>
 dash.info.botlendact.desc= HODL此为机器人已完成的工作清单，请小心核对您的交易资料。
 
-dash.info.lendhalt.reason =出借终止！原因：
-dash.info.lendhalt.warning =贷款警告！
+dash.info.lendhalt.reason=出借终止！原因：
+dash.info.lendhalt.warning=贷款警告！
 
-dash.info.balancedetails.title =资产分布
-dash.info.balancedetails.breakdown =以比特币为单位，分析您放款的资金配置。
-dash.info.balancedetails.topfive =Top 5 in BTC
-dash.info.balancedetails.currencydist =资金分布
+dash.info.balancedetails.title=资产分布
+dash.info.balancedetails.breakdown=以比特币为单位，分析您放款的资金配置。
+dash.info.balancedetails.topfive=Top 5 in BTC
+dash.info.balancedetails.currencydist=资金分布
 
 # /dashboard/#/payment :: Dashboard Payment
-dash.payment.info.title =储值资讯
-dash.payment.info.viewmore =查看更多
-dash.payment.info.close =关闭
+dash.payment.info.title=储值资讯
+dash.payment.info.viewmore=查看更多
+dash.payment.info.close=关闭
 
-dash.payment.info.methods.title =储值方法：
-dash.payment.info.methods.desc.start =亲爱的用户您好，目前我们只接受比特币付款，但如果您拥有Coinbase帐号，我们我也接受您用它来支付美金USD。如果您在支付上遭遇任何困难，请跟我们联络，您可以在SLACK社群找到我们
-dash.payment.info.methods.desc.end =或写EMAIL
-dash.payment.info.methods.desc.list.one =如果用户已使用及未使用的点数总和超过0.025BTC，推荐人将获得0.5％费用的减免
-dash.payment.info.methods.desc.list.two =每储值0.01BTC，用户都能减免0.1％的费用
-dash.payment.info.methods.tooltip =其他折扣类型没有上限
-dash.payment.info.methods.refpaydisc =推荐和储值的奖励总和上限为3.5％。
-dash.payment.info.methods.add =添加储值
+dash.payment.info.methods.title=储值方法：
+dash.payment.info.methods.desc.start=亲爱的用户您好，目前我们只接受比特币付款，但如果您拥有Coinbase帐号，我们我也接受您用它来支付美金USD。如果您在支付上遭遇任何困难，请跟我们联络，您可以在SLACK社群找到我们
+dash.payment.info.methods.desc.end=或写EMAIL
+dash.payment.info.methods.desc.list.one=如果用户已使用及未使用的点数总和超过0.025BTC，推荐人将获得0.5％费用的减免
+dash.payment.info.methods.desc.list.two=每储值0.01BTC，用户都能减免0.1％的费用
+dash.payment.info.methods.tooltip=其他折扣类型没有上限
+dash.payment.info.methods.refpaydisc=推荐和储值的奖励总和上限为3.5％。
+dash.payment.info.methods.add=添加储值
 
-dash.payment.info.userinfo.title =更新资讯
-dash.payment.info.userinfo.tdebt =总债务：
-dash.payment.info.userinfo.ucred =未使用余点数：
-dash.payment.info.userinfo.scred =已花费点数：
-dash.payment.info.userinfo.charge = HODL.ZONE收费：
-dash.payment.info.userinfo.referalcode =推荐码<small>（您的推荐码）</ small>：
+dash.payment.info.userinfo.title=更新资讯
+dash.payment.info.userinfo.tdebt=总债务：
+dash.payment.info.userinfo.ucred=未使用余点数：
+dash.payment.info.userinfo.scred=已花费点数：
+dash.payment.info.userinfo.charge= HODL.ZONE收费：
+dash.payment.info.userinfo.referalcode=推荐码<small>（您的推荐码）</ small>：
 dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
 dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
 
-dash.payment.info.plog.title =用户储值纪录
-dash.payment.info.plog.notfound =没有付款资讯
+dash.payment.info.plog.title=用户储值纪录
+dash.payment.info.plog.notfound=没有付款资讯
 
-dash.payment.info.dlog.title =用户帐务日志
-dash.payment.info.dlog.desc =所有费用均按帐户的当前费率计算。如果已达成折扣条件，只会影响新的帐单，而不是现有的帐单。
-dash.payment.info.dlog.notfound =没有发现帐单。
+dash.payment.info.dlog.title=用户帐务日志
+dash.payment.info.dlog.desc=所有费用均按帐户的当前费率计算。如果已达成折扣条件，只会影响新的帐单，而不是现有的帐单。
+dash.payment.info.dlog.notfound=没有发现帐单。
 
-dash.payment.info.pmodal.title =详细储值资讯
+dash.payment.info.pmodal.title=详细储值资讯
 dash.payment.info.pmodal.code=Code
 dash.payment.info.pmodal.credited=Credited
 dash.payment.info.pmodal.contacted=Contacted
