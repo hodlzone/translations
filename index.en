@@ -11,6 +11,7 @@ contact.joinslack=Join our Slack
 contact.emailus=Email us at: support@hodl.zone
 contact.sectiondescription=The Crypto HODLers that brought you HODL.ZONE.
 contact.leaddeveloper=Lead Developer
+contact.translator=Translator
 
 # / :: Header Navbar
 index.header.faq=FAQ

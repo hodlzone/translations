@@ -11,6 +11,7 @@ contact.joinslack=加入我们的Slack社群
 contact.emailus=写信给我们：support@hodl.zone
 contact.sectiondescription=同为虚拟货币持有者的HODL.ZONE创办成员。
 contact.leaddeveloper=创办人
+contact.translator=Translator
 
 # / :: Header Navbar
 index.header.faq=常见问题
@@ -112,10 +113,10 @@ newpass.dead=喔不，你传送的连结已经失效:(请再重新过
 # Verified
 verified.email_sucess=信箱认证成功
 
-#/ donate ::捐赠部分
+# /donate :: Donate section
 donate.description=我们为了增加你的收益做了许多努力，如果你觉得我们做得不错，想对我们表达支持，感谢或鼓励，欢迎您赞助我们一些比特币:)
 
-#/ dashboard ::仪表板SideNav
+# /dashboard :: Dashboard SideNav
 dash.sidenav.home=首页
 dash.sidenav.settings=设定
 dash.sidenav.usersettings=用户设定
