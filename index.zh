@@ -6,7 +6,7 @@ general.Button.delete=删除
 
 # /contact :: Contact section
 contact.header=联络我们
-contact.description=同为虚拟货币玩家，我们了解您的担心与顾虑，所以请不吝联系我们，告诉我们您遇到的问题或顾忌，您可以写电子邮件或透过我们的松弛社群，如果您的问题急于答覆，请在松弛社群上联系我们。
+contact.description=同为虚拟货币玩家，我们了解您的担心与顾虑，所以请不吝联系我们，告诉我们您遇到的问题或顾忌，您可以写电子邮件或透过我们的slack社群，如果您的问题急于答覆，请在slack社群上联系我们。
 contact.joinslack=加入我们的Slack社群
 contact.emailus=写信给我们：support@hodl.zone
 contact.sectiondescription=同为虚拟货币持有者的HODL.ZONE创办成员。
@@ -32,7 +32,7 @@ index.body.earnings=我能获得多少利润？
 index.body.calculator=使用历史利率，来估计您将会获利多少
 index.body.calculator.amount=比特币BTC数量
 index.body.calculator.time=周
-index.body.slack.join=加入我们的松弛社群
+index.body.slack.join=加入我们的Slack社群
 index.body.slack.description=让我们亲自向您提供帮助，使您的问题能更快找到答案，也欢迎您向我们提出任何意见及回馈
 index.body.slack.signup=注册
 index.body.bottom.row.one=出借您的货币其实很容易
@@ -106,8 +106,8 @@ newpass.input_password=填入新密码
 newpass.new_password=新密码
 newpass.input_email=填入你的信箱
 newpass.email_success=确认信已送出，请确认用户资料正确。
-newpass.congrats=Congrats! Your password has been changed!
-newpass.dead=Oh no, the link you send is dead :( You will have to make a new request.
+newpass.congrats=恭喜！您的密码已成功变更！
+newpass.dead=喔不，你传送的连结已经失效:(请再重新过
 
 # Verified
 verified.email_sucess=信箱认证成功
@@ -142,48 +142,48 @@ dash.info.currentbtcnotlent=尚未成功出借单位：BTC
 dash.info.availablebtclent=已出借百分比单位：BTC
 dash.info.fromyesterday=跟昨天比较
 
-dash.info.botlendact.title=Bot Lending Activity<small> Live action of bot activity.</small>
-dash.info.botlendact.desc=This is a complete list of the running HODL bot activity on your account. Please keep in mind this a compilation of activity from your active exchanges.
+dash.info.botlendact.title=出借机器人运行中<small>机器人运行状况。</small>
+dash.info.botlendact.desc= HODL此为机器人已完成的工作清单，请小心核对您的交易资料。
 
-dash.info.lendhalt.reason=Lending Halted! Reason:
-dash.info.lendhalt.warning=Lending Warning!
+dash.info.lendhalt.reason=出借终止！原因：
+dash.info.lendhalt.warning=贷款警告！
 
-dash.info.balancedetails.title=Balance Details
-dash.info.balancedetails.breakdown=Breakdown of your total lending balances in their BTC value. 
+dash.info.balancedetails.title=资产分布
+dash.info.balancedetails.breakdown=以比特币为单位，分析您放款的资金配置。
 dash.info.balancedetails.topfive=Top 5 in BTC
-dash.info.balancedetails.currencydist=Currency Dist.
+dash.info.balancedetails.currencydist=资金分布
 
 # /dashboard/#/payment :: Dashboard Payment
-dash.payment.info.title=Payment Info
-dash.payment.info.viewmore=View More
-dash.payment.info.close=Close
+dash.payment.info.title=储值资讯
+dash.payment.info.viewmore=查看更多
+dash.payment.info.close=关闭
 
-dash.payment.info.methods.title=Payment Methods:
-dash.payment.info.methods.desc.start=Hey there, we currently only accept Bitcoin as payment for debts. If you own a Coinbase account, you can also pay in USD. If you have a problem with the payments please contact us on our
-dash.payment.info.methods.desc.end=or email us at
-dash.payment.info.methods.desc.list.one=Referrals will earn a 0.5% charge reduction if the referred user's spent and unspent credits total over 0.025 BTC
-dash.payment.info.methods.desc.list.two=A charge reduction of 0.1% will be applied for every 0.01 BTC deposited
-dash.payment.info.methods.tooltip=Other discount types are not capped
-dash.payment.info.methods.refpaydisc=Referral and Payment discounts are combined and are capped at 3.5%.
-dash.payment.info.methods.add=Add Credits
+dash.payment.info.methods.title=储值方法：
+dash.payment.info.methods.desc.start=亲爱的用户您好，目前我们只接受比特币付款，但如果您拥有Coinbase帐号，我们我也接受您用它来支付美金USD。如果您在支付上遭遇任何困难，请跟我们联络，您可以在SLACK社群找到我们
+dash.payment.info.methods.desc.end=或写EMAIL
+dash.payment.info.methods.desc.list.one=如果用户已使用及未使用的点数总和超过0.025BTC，推荐人将获得0.5％费用的减免
+dash.payment.info.methods.desc.list.two=每储值0.01BTC，用户都能减免0.1％的费用
+dash.payment.info.methods.tooltip=其他折扣类型没有上限
+dash.payment.info.methods.refpaydisc=推荐和储值的奖励总和上限为3.5％。
+dash.payment.info.methods.add=添加储值
 
-dash.payment.info.userinfo.title=Updated Info
-dash.payment.info.userinfo.tdebt=Total Debt:
-dash.payment.info.userinfo.ucred=Unspent Credit:
-dash.payment.info.userinfo.scred=Spent Credit:
-dash.payment.info.userinfo.charge=HODL.ZONE Charge:
-dash.payment.info.userinfo.referalcode=Referral Code <small>(your code to share)</small>:
+dash.payment.info.userinfo.title=更新资讯
+dash.payment.info.userinfo.tdebt=总债务：
+dash.payment.info.userinfo.ucred=未使用余点数：
+dash.payment.info.userinfo.scred=已花费点数：
+dash.payment.info.userinfo.charge= HODL.ZONE收费：
+dash.payment.info.userinfo.referalcode=推荐码<small>（您的推荐码）</ small>：
 dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
 dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
 
-dash.payment.info.plog.title=User Payment Logs
-dash.payment.info.plog.notfound=No payments found.
+dash.payment.info.plog.title=用户储值纪录
+dash.payment.info.plog.notfound=没有付款资讯
 
-dash.payment.info.dlog.title=User Debt Logs
-dash.payment.info.dlog.desc=All charges are calculated at the current charge rate on the account. If a discount is applied, it will only affect new debts, not the existing.
-dash.payment.info.dlog.notfound=No debts found.
+dash.payment.info.dlog.title=用户帐务日志
+dash.payment.info.dlog.desc=所有费用均按帐户的当前费率计算。如果已达成折扣条件，只会影响新的帐单，而不是现有的帐单。
+dash.payment.info.dlog.notfound=没有发现帐单。
 
-dash.payment.info.pmodal.title=Detailed Payment Information
+dash.payment.info.pmodal.title=详细储值资讯
 dash.payment.info.pmodal.code=Code
 dash.payment.info.pmodal.credited=Credited
 dash.payment.info.pmodal.contacted=Contacted
@@ -310,11 +310,11 @@ dash.profpredic.projec.fee.tooltip=The HODLZONE fee, max is 10%
 dash.profpredic.projec.fee.title=HODLZONE Fee:
 
 dash.profpredic.projec.lend.desc=Lending rates are represented in the interest per day. Interest rates are listed below are an average across the time duration specified. All predictions will use the average in the last 30 days.
-dash.profpredic.projec.lend.title=Lending Rates
-dash.profpredic.projec.lend.last30days=Last 30 Days
-dash.profpredic.projec.lend.last7days=Last 7 Days
-dash.profpredic.projec.lend.lastday=Last Day
-dash.profpredic.projec.lend.current=Current
+dash.profpredic.projec.lend.title=放款利率
+dash.profpredic.projec.lend.last30days=过去30天
+dash.profpredic.projec.lend.last7days=过去7天
+dash.profpredic.projec.lend.lastday=昨天
+dash.profpredic.projec.lend.current=当前
 
 dash.profpredic.projec.profit.title=Projected Profits
 dash.profpredic.projec.profit.time.tooltip=Amount of time to lend
