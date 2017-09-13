@@ -42,7 +42,7 @@ index.body.bottom.row.two=還是沒搞懂嗎?
 index.body.bottom.row.two_text=也許這些能回答你
 index.body.bottom.row.three=來看看我們的
 index.body.bottom.row.three_text=幕後花絮
-index.body.bottom.row.three_msg=Blog
+index.body.bottom.row.three_msg=部落格
 index.body.news.header=不要錯過我們的新聞
 index.body.news.desc=訂閱我們的電子報
 index.body.news.button=訂閱!
@@ -106,8 +106,8 @@ newpass.input_password=填入新密碼
 newpass.new_password=新密碼
 newpass.input_email=填入你的信箱
 newpass.email_success=確認信已送出，請確認用戶資料正確。
-newpass.congrats=Congrats! Your password has been changed!
-newpass.dead=Oh no, the link you send is dead :( You will have to make a new request.
+newpass.congrats=恭喜! 您的密碼已成功變更!
+newpass.dead=喔不, 您傳送的連結已經失效 :( 請再重新來過
 
 # Verified
 verified.email_sucess=信箱認證成功
@@ -163,15 +163,15 @@ dash.payment.info.methods.desc.start=親愛的用戶您好，目前我們只接�
 dash.payment.info.methods.desc.end=或寫EMAIL
 dash.payment.info.methods.desc.list.one=如果用戶已使用及未使用的點數總和超過0.025BTC,推薦人將獲得0.5%費用的減免
 dash.payment.info.methods.desc.list.two=每儲值0.01BTC,用戶都能減免0.1%的費用
-dash.payment.info.methods.tooltip=Other discount types are not capped
+dash.payment.info.methods.tooltip=其他折扣類型沒有上限
 dash.payment.info.methods.refpaydisc=推薦和儲值的獎勵總和上限為3.5%。
-dash.payment.info.methods.add=Add 儲值
+dash.payment.info.methods.add=增加儲值
 
 dash.payment.info.userinfo.title=更新資訊
 dash.payment.info.userinfo.tdebt=總債務:
 dash.payment.info.userinfo.ucred=未使用餘點數:
 dash.payment.info.userinfo.scred=已花費點數:
-dash.payment.info.userinfo.charge=HODL.ZONE Charge:
+dash.payment.info.userinfo.charge=HODL.ZONE 收費:
 dash.payment.info.userinfo.referalcode=推薦碼 <small>(您的推薦碼)</small>:
 dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
 dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
@@ -179,11 +179,11 @@ dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee c
 dash.payment.info.plog.title=用戶儲值紀錄
 dash.payment.info.plog.notfound=沒有付款資訊
 
-dash.payment.info.dlog.title=User Debt Logs
-dash.payment.info.dlog.desc=All charges are calculated at the current charge rate on the account. If a discount is applied, it will only affect new debts, not the existing.
-dash.payment.info.dlog.notfound=No debts found.
+dash.payment.info.dlog.title =用戶帳務日誌
+dash.payment.info.dlog.desc =所有費用均按帳戶的當前費率計算。如果已達成折扣條件，只會影響新的帳單，而不是現有的帳單。
+dash.payment.info.dlog.notfound =沒有發現帳單。
 
-dash.payment.info.pmodal.title=Detailed 儲值資訊
+dash.payment.info.pmodal.title=詳細儲值資訊
 dash.payment.info.pmodal.code=Code
 dash.payment.info.pmodal.credited=Credited
 dash.payment.info.pmodal.contacted=Contacted
