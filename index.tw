@@ -138,9 +138,9 @@ dash.topnav.time=? 國際協調時間(UTC Time):
 
 # /dashboard :: Dashboard Info
 dash.info.currentlendrate=當前出借利率
-dash.info.currentbtclent=出借中 單位:BTC
-dash.info.currentbtcnotlent=尚未成功出借 單位:BTC
-dash.info.availablebtclent=已出借百分比 單位:BTC
+dash.info.currentbtclent=出借中
+dash.info.currentbtcnotlent=尚未出借
+dash.info.availablebtclent=已出借百分比
 dash.info.fromyesterday=跟昨天比較
 
 dash.info.botlendact.title=出借機器人運行中<small> 機器人運行狀況.</small>
@@ -174,8 +174,8 @@ dash.payment.info.userinfo.ucred=未使用餘點數:
 dash.payment.info.userinfo.scred=已花費點數:
 dash.payment.info.userinfo.charge=HODL.ZONE 收費:
 dash.payment.info.userinfo.referalcode=推薦碼 <small>(您的推薦碼)</small>:
-dash.payment.info.userinfo.refereecode.desc=Referee Code <small>(account who referred you)</small>:
-dash.payment.info.userinfo.refereecode.miss=None set, you can set your referee code in 
+dash.payment.info.userinfo.refereecode.desc=推薦人 <small>(您推薦人的帳號)</small>:
+dash.payment.info.userinfo.refereecode.miss=尚未設定, 您可以設定您的推薦人透過 
 
 dash.payment.info.plog.title=用戶儲值紀錄
 dash.payment.info.plog.notfound=沒有付款資訊
@@ -188,58 +188,58 @@ dash.payment.info.pmodal.title=詳細儲值資訊
 dash.payment.info.pmodal.code=Code
 dash.payment.info.pmodal.credited=Credited
 dash.payment.info.pmodal.contacted=Contacted
-dash.payment.info.pmodal.coinbasepaymentdate=Coinbase Payment Date:
-dash.payment.info.pmodal.hodlpaymentdate=HODL.ZONE Payment Date:
-dash.payment.info.pmodal.paymentamount=Payment Amount
-dash.payment.info.pmodal.receipt=Coinbase Receipt
+dash.payment.info.pmodal.coinbasepaymentdate=Coinbase 支付日期:
+dash.payment.info.pmodal.hodlpaymentdate=HODL.ZONE 支付日期:
+dash.payment.info.pmodal.paymentamount=交易數量
+dash.payment.info.pmodal.receipt=Coinbase 收據
 
-dash.payment.info.dmodal.title=Detailed Payment Information
-dash.payment.info.dmodal.exch=Exchange
-dash.payment.info.dmodal.loanopendate=Loan Opened
-dash.payment.info.dmodal.loandate=Loan Closed
-dash.payment.info.dmodal.cur=Currency
-dash.payment.info.dmodal.amountloaned=Amount Loaned
-dash.payment.info.dmodal.dailyinterestrate=Daily Interest Rate
-dash.payment.info.dmodal.grossamountearned=Gross Amount Earned
-dash.payment.info.dmodal.grossbtcamountearned=Gross BTC Amount Earned
-dash.payment.info.dmodal.hodlzonechargerate=HODL.ZONE Charge Rate
-dash.payment.info.dmodal.hodlzonecharge=HODL.ZONE Charge
-dash.payment.info.dmodal.amountpaid=Amount Paid
-dash.payment.info.dmodal.fullypaid=Fully Paid
+dash.payment.info.dmodal.title=詳細儲值資訊
+dash.payment.info.dmodal.exch=交易所
+dash.payment.info.dmodal.loanopendate=放款起始日
+dash.payment.info.dmodal.loandate=放款到期日
+dash.payment.info.dmodal.cur=幣別
+dash.payment.info.dmodal.amountloaned=放款數量
+dash.payment.info.dmodal.dailyinterestrate=每日盈利率
+dash.payment.info.dmodal.grossamountearned=淨賺數量
+dash.payment.info.dmodal.grossbtcamountearned=BTC淨賺數量
+dash.payment.info.dmodal.hodlzonechargerate=HODL.ZONE 收費利率
+dash.payment.info.dmodal.hodlzonecharge=HODL.ZONE 收費
+dash.payment.info.dmodal.amountpaid=支付數量
+dash.payment.info.dmodal.fullypaid=完成支付
 
-dash.payment.info.rmodal.title=Detailed Reduction History Information
+dash.payment.info.rmodal.title=費用減免之歷史紀錄
 
-dash.payment.info.rmodal.upayreduc.title=User Payment Reduction
-dash.payment.info.rmodal.upayreduc.desc=Each payment of 0.01 BTC= 0.1% reduction.
-dash.payment.info.rmodal.upayreduc.none=No User Payment reductions.
-dash.payment.info.rmodal.upayreduc.received.start=You have received
-dash.payment.info.rmodal.upayreduc.received.end=reduction
+dash.payment.info.rmodal.upayreduc.title=用戶儲值減免
+dash.payment.info.rmodal.upayreduc.desc=每儲值0.01BTC,用戶都能減免0.1%的費用
+dash.payment.info.rmodal.upayreduc.none=尚未擁有用戶儲值減免
+dash.payment.info.rmodal.upayreduc.received.start=您已經獲得
+dash.payment.info.rmodal.upayreduc.received.end=減免
 
-dash.payment.info.rmodal.upayref.title=User Referral Reduction
-dash.payment.info.rmodal.upayref.none=No User Referrals found.
-dash.payment.info.rmodal.upayref.desc=This is a complete list of all the user referrals that have reached the minimum that will.<br>Total:
+dash.payment.info.rmodal.upayref.title=用戶推薦減免
+dash.payment.info.rmodal.upayref.none=尚未發現有效推薦
+dash.payment.info.rmodal.upayref.desc=這是所有已達成的用戶減免紀錄<br>總和:
 
-dash.payment.info.rmodal.ucustreduc.title=Custom Reductions
-dash.payment.info.rmodal.ucustreduc.none=No Custom Reductions found.
-dash.payment.info.rmodal.ucustreduc.desc=This is a complete list of all the custom reductions we have on record.<br>Total:
+dash.payment.info.rmodal.ucustreduc.title=用戶減免
+dash.payment.info.rmodal.ucustreduc.none=尚未擁有任何用戶減免
+dash.payment.info.rmodal.ucustreduc.desc=這是所有已達成的用戶減免紀錄<br>總和:
 
 # /dashboard#/settings/lending :: Lending Settings
-dash.settings.lending.bitfinwarn=Currently Bitfinex is not fully supported. There will be no charge for Bitfinex profits, and all lending will be at the FRR rate.
-dash.settings.lending.api=Input your API keys assosicated with your {{getExchangeName()}} account. You can create a new set of API keys here:
-dash.settings.lending.apikey=API Key
-dash.settings.lending.seckey=Secret
+dash.settings.lending.bitfinwarn=目前我們並未完全支援Bitfinex. 因此我們並不會對 Bitfinex 獲得的利潤收取任何費用, and all lending will be at the FRR rate.
+dash.settings.lending.api=填入您的API金鑰來操作您的{{getExchangeName()}} account. 您可以在這裡創造新的API金鑰:
+dash.settings.lending.apikey=API金鑰
+dash.settings.lending.seckey=密碼
 dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
 dash.settings.enable.min-label=Miniumum Loan Rate
 
 # /dashboard#/settings/user :: User Settings
-dash.settings.user.2fa=Two Factor Authentication
-dash.settings.user.2fa.current=Currently 2FA is
+dash.settings.user.2fa=雙重身分驗證2FA
+dash.settings.user.2fa.current=目前的雙重身分驗證2FA是
 # This refers to a 2fa Token that is needed for input
 dash.settings.user.2fa.token=Token
 dash.settings.user.2fa.header=Create Two Factor Authentication
 dash.settings.user.2fa.info=By activating two factor authenitcation, you will be no longer able to log in without a password. Be careful when selecting this, as losing your two factor authentication also loses access to your account. 
-dash.settings.user.2fa.create=Create 2FA
-dash.settings.user.2fa.create_new=Create New 2FA
+dash.settings.user.2fa.create=創造雙重身分驗證2FA2FA
+dash.settings.user.2fa.create_new=創造新的雙重身分驗證2FA
 dash.settings.user.qr=QRCode
 dash.settings.user.qr.info=Scan this QR code with your Google Authenticator. Once you leave this page, this will never be displayed again, it might be wise to print this page out. Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
 dash.settings.user.2fa.password=Only a password is required to create a new 2FA
