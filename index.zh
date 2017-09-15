@@ -217,7 +217,7 @@ dash.payment.info.rmodal.upayreduc.received.end=减免
 
 dash.payment.info.rmodal.upayref.title=用户推荐减免
 dash.payment.info.rmodal.upayref.none=尚未发现有效推荐
-dash.payment.info.rmodal.upayref.des=这是所有已达成的用户减免纪录点击<br>总和：
+dash.payment.info.rmodal.upayref.desc=这是所有已达成的用户减免纪录点击<br>总和：
 
 dash.payment.info.rmodal.ucustreduc.title=用户减免
 dash.payment.info.rmodal.ucustreduc.none=尚未拥有任何用户减免
