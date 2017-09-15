@@ -221,25 +221,25 @@ dash.payment.info.rmodal.upayref.des=这是所有已达成的用户减免纪录�
 
 dash.payment.info.rmodal.ucustreduc.title=用户减免
 dash.payment.info.rmodal.ucustreduc.none=尚未拥有任何用户减免
-dash.payment.info.rmodal.ucustreduc.desc =这是所有已达成的用户减免纪录点击<br>总和：
+dash.payment.info.rmodal.ucustreduc.desc=这是所有已达成的用户减免纪录点击<br>总和：
 
 # /dashboard#/settings/lending :: Lending Settings
-dash.settings.lending.bitfinwarn =目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，所有贷款将以FRR率。
-dash.settings.lending.api =填入您的API金钥来操作您的{{getExchangeName（）}}帐户。您可以在这里创造新的API金钥：
-dash.settings.lending.apikey = API金钥
-dash.settings.lending.seckey =密码
+dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，所有贷款将以FRR率。
+dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName（）}}帐户。您可以在这里创造新的API金钥：
+dash.settings.lending.apikey= API金钥
+dash.settings.lending.seckey=密码
 dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
 dash.settings.enable.min-label=Miniumum Loan Rate
 
 ＃/ dashboard＃/ settings / user :: User Settings
-dash.settings.user.2fa =双重身分验证2FA
-dash.settings.user.2fa.current =目前的双重身分验证2FA是
+dash.settings.user.2fa=双重身分验证2FA
+dash.settings.user.2fa.current=目前的双重身分验证2FA是
 # This refers to a 2fa Token that is needed for input
-dash.settings.user.2fa.token =令牌
-dash.settings.user.2fa.header =创建双因素身份验证
-dash.settings.user.2fa.info =通过激活两个因素验证，您将无法再登录而不用密码。选择此项时要小心，因为丢失双因素身份验证也会失去对您的帐户的访问权限。
-dash.settings.user.2fa.create =创造双重身分验证2FA2FA
-dash.settings.user.2fa.create_new =创造新的双重身分验证2FA
+dash.settings.user.2fa.token=令牌
+dash.settings.user.2fa.header=创建双因素身份验证
+dash.settings.user.2fa.info=通过激活两个因素验证，您将无法再登录而不用密码。选择此项时要小心，因为丢失双因素身份验证也会失去对您的帐户的访问权限。
+dash.settings.user.2fa.create=创造双重身分验证2FA2FA
+dash.settings.user.2fa.create_new=创造新的双重身分验证2FA
 dash.settings.user.qr=QRCode
 dash.settings.user.qr.info=Scan this QR code with your Google Authenticator. Once you leave this page, this will never be displayed again, it might be wise to print this page out. Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
 dash.settings.user.2fa.password=Only a password is required to create a new 2FA
