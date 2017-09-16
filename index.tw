@@ -236,24 +236,23 @@ dash.settings.user.2fa=雙重身分驗證2FA
 dash.settings.user.2fa.current=目前的雙重身分驗證2FA是
 # This refers to a 2fa Token that is needed for input
 dash.settings.user.2fa.token=Token
-dash.settings.user.2fa.header=Create Two Factor Authentication
-dash.settings.user.2fa.info=By activating two factor authenitcation, you will be no longer able to log in without a password. Be careful when selecting this, as losing your two factor authentication also loses access to your account. 
-dash.settings.user.2fa.create=創造雙重身分驗證2FA2FA
+dash.settings.user.2fa.header=創造雙重身分驗證2FA2FA
+dash.settings.user.2fa.info=若您啟用雙重身分驗證，您每次登入時都將必須輸入驗證碼，因此開啟此功能必需要非常小心，一旦您無法滿足驗證，意味者您會失去對帳戶的訪問權限。dash.settings.user.2fa.create=創造雙重身分驗證2FA2FA
 dash.settings.user.2fa.create_new=創造新的雙重身分驗證2FA
 dash.settings.user.qr=QRCode
-dash.settings.user.qr.info=Scan this QR code with your Google Authenticator. Once you leave this page, this will never be displayed again, it might be wise to print this page out. Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
-dash.settings.user.2fa.password=Only a password is required to create a new 2FA
-dash.settings.user.email.verify=Verify Email
-dash.settings.user.email.verify.ask=Please verify your email!
-dash.settings.user.password.change=Change Password
-dash.settings.user.password.current=Current Password
-dash.settings.user.password.new=New Password
-dash.settings.user.password.confirm=Confirm New Password
-dash.settings.user.password.match=passwords must match
-dash.settings.user.ref.set=Set Referee
-dash.settings.user.ref.enter=Please enter in referee code.
-dash.settings.user.ref=Referee
-dash.settings.user.session.extend=Extend Time Waited between Sessions
+dash.settings.user.qr.info=使用您的Google Authenticator掃描QR code。一旦你離開這個頁面，這將永遠不會再顯示，因此影印這個頁面可能是明智的選擇。Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
+dash.settings.user.2fa.password=您只需要密碼來創造一個新的雙重身分驗證2FA
+dash.settings.user.email.verify=確認Email
+dash.settings.user.email.verify.ask=請確認您的email!
+dash.settings.user.password.change=更換密碼
+dash.settings.user.password.current=舊密碼
+dash.settings.user.password.new=新密碼
+dash.settings.user.password.confirm=確認新密碼
+dash.settings.user.password.match=密碼必須符合
+dash.settings.user.ref.set=設定推薦人
+dash.settings.user.ref.enter=請輸入推薦人號碼
+dash.settings.user.ref=推薦人
+dash.settings.user.session.extend=延長自動登出時間
 dash.settings.user.session.update=Update Session Alive Time
 dash.settings.user.session.active=Active Sessions
 dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
@@ -263,10 +262,10 @@ dash.settings.user.session.none=No active active sessions open besides current s
 
 
 # /dashboard#/deposit :: Dashboard Deposit
-dash.deposit.title=Deposit
-dash.deposit.desc=Adding credits to your HODL.ZONE bot.
+dash.deposit.title=儲值
+dash.deposit.desc=增加您的HODL.ZONE機器人點數
 
-dash.deposit.refundpolicy.title=Refund Policy (No Refund)
+dash.deposit.refundpolicy.title=退款政策 (不會退款)
 dash.deposit.refundpolicy.one=All products are sold “as is”. You assume the responsibility for your purchase, and no refunds will be issued. Any unspent credits will remain on your account until further loans are placed and debt is accumulated.
 
 dash.deposit.disclaimer.title=Disclaimer
@@ -317,50 +316,50 @@ dash.profpredic.projec.lend.last7days=過去7天
 dash.profpredic.projec.lend.lastday=昨天
 dash.profpredic.projec.lend.current=當前
 
-dash.profpredic.projec.profit.title=Projected Profits
-dash.profpredic.projec.profit.time.tooltip=Amount of time to lend
-dash.profpredic.projec.profit.time.title=Time
-dash.profpredic.projec.profit.grossprof.tooltip=Amount of token earned
-dash.profpredic.projec.profit.grossprof.title=Gross Profit
-dash.profpredic.projec.profit.grossbtcprof.tooltip=Using current value of token to btc
-dash.profpredic.projec.profit.grossbtcprof.title=Gross Profit (BTC)
+dash.profpredic.projec.profit.title=預期利潤
+dash.profpredic.projec.profit.time.tooltip=出借的時間
+dash.profpredic.projec.profit.time.title=時間
+dash.profpredic.projec.profit.grossprof.tooltip=賺取的數量
+dash.profpredic.projec.profit.grossprof.title=利潤總額
+dash.profpredic.projec.profit.grossbtcprof.tooltip=換算當前BTC價值
+dash.profpredic.projec.profit.grossbtcprof.title=利潤總額(BTC)
 dash.profpredic.projec.profit.credsconsumed.tooltip=收費上限為10%
-dash.profpredic.projec.profit.credsconsumed.title=Credits consumed (Based off the fee)
-dash.profpredic.projec.profit.daily=Daily
-dash.profpredic.projec.profit.weekly=Weekly
-dash.profpredic.projec.profit.monthly=Monthly
-dash.profpredic.projec.profit.yearly=Yearly
+dash.profpredic.projec.profit.credsconsumed.title=已消耗點數(不含手續費)
+dash.profpredic.projec.profit.daily=日
+dash.profpredic.projec.profit.weekly=周
+dash.profpredic.projec.profit.monthly=月
+dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
-dash.cur.lendhist.title=Last Month {{coin}} Lending History
+dash.cur.lendhist.title=上個月 {{幣別}} 出借紀錄
 dash.cur.lendhist.desc=Each day represents the loans that closed on that given day. Keep in mind that this has some data skew because loans can be up to 2 days in length, meaning a loan placed today might not show up until 2 days from now. This causes days with average shorter durations appear more profitible.
-dash.cur.lendhist.switchto=Switch to
-dash.cur.lendhist.dollars=Dollars
-dash.cur.lendhist.none=No Lending History Found.
+dash.cur.lendhist.switchto=切換
+dash.cur.lendhist.dollars=元
+dash.cur.lendhist.none=無出借紀錄
 
-dash.cur.lendrate.title=Last Month {{coin}} Lending Rates
-dash.cur.lendrate.desc=The middle line is the average active rate for that given moment in time. The area around it shows the highest and lowest rates.
-dash.cur.lendrate.loading=Loading detailed lending history... this may take a moment.
-dash.cur.lendrate.none=No Lending Rates Found.
+dash.cur.lendrate.title=上個月 {{幣別}} 放款利率
+dash.cur.lendrate.desc=中線為當下的平均利率，周圍則是最高和最低的利率。
+dash.cur.lendrate.loading=載入詳細的出借紀錄...這可能需要一些時間。
+dash.cur.lendrate.none=無放款利率紀錄
 
-dash.cur.lendamount.title=Last Month {{coin}} Lending Amounts
-dash.cur.lendamount.desc=Here shows the amount of crypto that was being lent, and not being lent throughout the last month.
-dash.cur.lendamount.loading=Loading detailed lending history... this may take a moment.
-dash.cur.lendamount.none=No Lending BTC Monthly Lending Amount Found.
+dash.cur.lendamount.title=上個月 {{幣別}} 出借總額
+dash.cur.lendamount.desc=這裡顯示您上個月出借及尚未借出的的虛擬貨幣總額。
+dash.cur.lendamount.loading=加載詳細的出借紀錄...這可能需要一些時間。
+dash.cur.lendamount.none=無出借紀錄
 
 # Generic Errors
-error.internal=Internal Error. Please contact support at: support@hodl.zone
+error.internal=系統錯誤，請聯繫 : support@hodl.zone
 
 # /register :: Register Response with errors
-error.register.invalidreferral=Referral code invalid.
-error.register.useralreadyexists=Username already exists.
-error.register.emailvalidate=Email failed to validate.
-error.register.failedtocreate=Failed to create user. Please try again.
+error.register.invalidreferral=邀請碼無效
+error.register.useralreadyexists=用戶名已存在
+error.register.emailvalidate=電子郵件無法驗證
+error.register.failedtocreate=無法創建用戶，請再試一次
 
 # /login :: Login Response with errors
-error.login.invalidauth=Invalid username, password or 2fa, please try again.
+error.login.invalidauth=無效的帳號、密碼或雙重認證碼，請再試一次。
 
 # /dashboard/settings/setreferee :: Set Referee with Errors
-error.setreferee.doesnotexist=The referee code entered does not exist.
-error.setreferee.alreadyset=Your referee code has already been set.
+error.setreferee.doesnotexist=推薦人號碼並不存在
+error.setreferee.alreadyset=您的推薦人號碼已經被使用
 error.setreferee.sameasyours=You can not set your code as referee code.
