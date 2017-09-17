@@ -235,24 +235,24 @@ dash.settings.enable.min-label=Miniumum Loan Rate
 dash.settings.user.2fa=双重身分验证2FA
 dash.settings.user.2fa.current=目前的双重身分验证2FA是
 # This refers to a 2fa Token that is needed for input
-dash.settings.user.2fa.token=令牌
-dash.settings.user.2fa.header=创建双因素身份验证
-dash.settings.user.2fa.info=通过激活两个因素验证，您将无法再登录而不用密码。选择此项时要小心，因为丢失双因素身份验证也会失去对您的帐户的访问权限。
-dash.settings.user.2fa.create=创造双重身分验证2FA2FA
+dash.settings.user.2fa.token=Token
+dash.settings.user.2fa.header=创造双重身分验证2FA2FA
+dash.settings.user.2fa.info=若您启用双重身分验证，您每次登入时都将必须输入验证码，因此开启此功能必需要非常小心，一旦您无法满足验证，意味者您会失去对帐户的访问权限。 dash.settings.user.2fa.create=创造双重身分验证2FA2FA
+dash.settings.user.2fa.create=创造双重身分验证2FA
 dash.settings.user.2fa.create_new=创造新的双重身分验证2FA
 dash.settings.user.qr=QRCode
-dash.settings.user.qr.info=Scan this QR code with your Google Authenticator. Once you leave this page, this will never be displayed again, it might be wise to print this page out. Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
-dash.settings.user.2fa.password=Only a password is required to create a new 2FA
-dash.settings.user.email.verify=Verify Email
-dash.settings.user.email.verify.ask=Please verify your email!
-dash.settings.user.password.change=Change Password
-dash.settings.user.password.current=Current Password
-dash.settings.user.password.new=New Password
-dash.settings.user.password.confirm=Confirm New Password
-dash.settings.user.password.match=passwords must match
-dash.settings.user.ref.set=Set Referee
-dash.settings.user.ref.enter=Please enter in referee code.
-dash.settings.user.ref=Referee
+dash.settings.user.qr.info=使用您的Google Authenticator扫描QR code。一旦你离开这个页面，这将永远不会再显示，因此影印这个页面可能是明智的选择。 Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
+dash.settings.user.2fa.password=您只需要密码来创造一个新的双重身分验证2FA
+dash.settings.user.email.verify=确认Email
+dash.settings.user.email.verify.ask=请确认您的email!
+dash.settings.user.password.change=更换密码
+dash.settings.user.password.current=旧密码
+dash.settings.user.password.new=新密码
+dash.settings.user.password.confirm=确认新密码
+dash.settings.user.password.match=密码必须符合
+dash.settings.user.ref.set=设定推荐人
+dash.settings.user.ref.enter=请输入推荐人代码
+dash.settings.user.ref=推荐人
 dash.settings.user.session.extend=Extend Time Waited between Sessions
 dash.settings.user.session.update=Update Session Alive Time
 dash.settings.user.session.active=Active Sessions
@@ -317,50 +317,50 @@ dash.profpredic.projec.lend.last7days=过去7天
 dash.profpredic.projec.lend.lastday=昨天
 dash.profpredic.projec.lend.current=当前
 
-dash.profpredic.projec.profit.title=Projected Profits
-dash.profpredic.projec.profit.time.tooltip=Amount of time to lend
-dash.profpredic.projec.profit.time.title=Time
-dash.profpredic.projec.profit.grossprof.tooltip=Amount of token earned
-dash.profpredic.projec.profit.grossprof.title=Gross Profit
-dash.profpredic.projec.profit.grossbtcprof.tooltip=Using current value of token to btc
-dash.profpredic.projec.profit.grossbtcprof.title=Gross Profit (BTC)
-dash.profpredic.projec.profit.credsconsumed.tooltip=The maximum fee is 10%"
-dash.profpredic.projec.profit.credsconsumed.title=Credits consumed (Based off the fee)
-dash.profpredic.projec.profit.daily=Daily
-dash.profpredic.projec.profit.weekly=Weekly
-dash.profpredic.projec.profit.monthly=Monthly
-dash.profpredic.projec.profit.yearly=Yearly
+dash.profpredic.projec.profit.title=预期利润
+dash.profpredic.projec.profit.time.tooltip=出借的时间
+dash.profpredic.projec.profit.time.title=时间
+dash.profpredic.projec.profit.grossprof.tooltip=赚取的数量
+dash.profpredic.projec.profit.grossprof.title=利润总额
+dash.profpredic.projec.profit.grossbtcprof.tooltip=换算当前BTC价值
+dash.profpredic.projec.profit.grossbtcprof.title=利润总额(BTC)
+dash.profpredic.projec.profit.credsconsumed.tooltip=收费上限为10%
+dash.profpredic.projec.profit.credsconsumed.title=已消耗点数(不含手续费)
+dash.profpredic.projec.profit.daily=日
+dash.profpredic.projec.profit.weekly=周
+dash.profpredic.projec.profit.monthly=月
+dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
-dash.cur.lendhist.title=Last Month {{coin}} Lending History
+dash.cur.lendhist.title=上个月 {{币别}} 出借纪录
 dash.cur.lendhist.desc=Each day represents the loans that closed on that given day. Keep in mind that this has some data skew because loans can be up to 2 days in length, meaning a loan placed today might not show up until 2 days from now. This causes days with average shorter durations appear more profitible.
-dash.cur.lendhist.switchto=Switch to
-dash.cur.lendhist.dollars=Dollars
-dash.cur.lendhist.none=No Lending History Found.
+dash.cur.lendhist.switchto=切换
+dash.cur.lendhist.dollars=元
+dash.cur.lendhist.none=无出借纪录
 
-dash.cur.lendrate.title=Last Month {{coin}} Lending Rates
-dash.cur.lendrate.desc=The middle line is the average active rate for that given moment in time. The area around it shows the highest and lowest rates.
-dash.cur.lendrate.loading=Loading detailed lending history... this may take a moment.
-dash.cur.lendrate.none=No Lending Rates Found.
+dash.cur.lendrate.title=上个月 {{币别}} 放款利率
+dash.cur.lendrate.desc=中线为当下的平均利率，周围则是最高和最低的利率。
+dash.cur.lendrate.loading=载入详细的出借纪录...这可能需要一些时间。
+dash.cur.lendrate.none=无放款利率纪录
 
-dash.cur.lendamount.title=Last Month {{coin}} Lending Amounts
-dash.cur.lendamount.desc=Here shows the amount of crypto that was being lent, and not being lent throughout the last month.
-dash.cur.lendamount.loading=Loading detailed lending history... this may take a moment.
-dash.cur.lendamount.none=No Lending BTC Monthly Lending Amount Found.
+dash.cur.lendamount.title=上个月 {{币别}} 出借总额
+dash.cur.lendamount.desc=这里显示您上个月出借及尚未借出的的虚拟货币总额。
+dash.cur.lendamount.loading=加载详细的出借纪录...这可能需要一些时间。
+dash.cur.lendamount.none=无出借纪录
 
 # Generic Errors
-error.internal=Internal Error. Please contact support at: support@hodl.zone
+error.internal=系统错误，请联系 : support@hodl.zone
 
 # /register :: Register Response with errors
-error.register.invalidreferral=Referral code invalid.
-error.register.useralreadyexists=Username already exists.
-error.register.emailvalidate=Email failed to validate.
-error.register.failedtocreate=Failed to create user. Please try again.
+error.register.invalidreferral=邀请码无效
+error.register.useralreadyexists=用户名已存在
+error.register.emailvalidate=电子邮件无法验证
+error.register.failedtocreate=无法创建用户，请再试一次
 
 # /login :: Login Response with errors
-error.login.invalidauth=Invalid username, password or 2fa, please try again.
+error.login.invalidauth=无效的帐号、密码或双重认证码，请再试一次
 
 # /dashboard/settings/setreferee :: Set Referee with Errors
-error.setreferee.doesnotexist=The referee code entered does not exist.
-error.setreferee.alreadyset=Your referee code has already been set.
-error.setreferee.sameasyours=You can not set your code as referee code.
+error.setreferee.doesnotexist=推荐人代码并不存在
+error.setreferee.alreadyset=您的推荐人代码已经被使用
+error.setreferee.sameasyours=您无法将您自己设为推荐人
