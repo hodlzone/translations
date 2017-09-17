@@ -131,6 +131,7 @@ dash.sidenav.contactus=聯絡我們
 dash.sidenav.faq=常見問題
 dash.sidenav.meetteam=我們的團隊
 dash.sidenav.sendlove=給我們鼓勵
+dash.sidenav.language=Language
 
 # /dashboard :: Dashboard TopNav
 dash.topnav.email=嗨，你好嗎

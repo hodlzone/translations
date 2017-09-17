@@ -131,6 +131,7 @@ dash.sidenav.contactus=Contact Us
 dash.sidenav.faq=FAQ
 dash.sidenav.meetteam=Meet the Team
 dash.sidenav.sendlove=Send Some Love
+dash.sidenav.language=Language
 
 # /dashboard :: Dashboard TopNav
 dash.topnav.email=Hiya doing,

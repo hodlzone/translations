@@ -131,6 +131,7 @@ dash.sidenav.contactus=联络我们
 dash.sidenav.faq=常见问题
 dash.sidenav.meetteam=我们的团队
 dash.sidenav.sendlove=给我们鼓励
+dash.sidenav.language=Language
 
 # /dashboard :: Dashboard TopNav
 dash.topnav.email=亲，你好吗
@@ -231,7 +232,7 @@ dash.settings.lending.seckey=密码
 dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
 dash.settings.enable.min-label=Miniumum Loan Rate
 
-＃/ dashboard＃/ settings / user :: User Settings
+# /dashboard#/settings/user :: User Settings
 dash.settings.user.2fa=双重身分验证2FA
 dash.settings.user.2fa.current=目前的双重身分验证2FA是
 # This refers to a 2fa Token that is needed for input
