@@ -238,6 +238,7 @@ dash.settings.user.2fa.current=目前的雙重身分驗證2FA是
 dash.settings.user.2fa.token=Token
 dash.settings.user.2fa.header=創造雙重身分驗證2FA2FA
 dash.settings.user.2fa.info=若您啟用雙重身分驗證，您每次登入時都將必須輸入驗證碼，因此開啟此功能必需要非常小心，一旦您無法滿足驗證，意味者您會失去對帳戶的訪問權限。dash.settings.user.2fa.create=創造雙重身分驗證2FA2FA
+dash.settings.user.2fa.create=創造雙重身分驗證2FA
 dash.settings.user.2fa.create_new=創造新的雙重身分驗證2FA
 dash.settings.user.qr=QRCode
 dash.settings.user.qr.info=使用您的Google Authenticator掃描QR code。一旦你離開這個頁面，這將永遠不會再顯示，因此影印這個頁面可能是明智的選擇。Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
@@ -250,7 +251,7 @@ dash.settings.user.password.new=新密碼
 dash.settings.user.password.confirm=確認新密碼
 dash.settings.user.password.match=密碼必須符合
 dash.settings.user.ref.set=設定推薦人
-dash.settings.user.ref.enter=請輸入推薦人號碼
+dash.settings.user.ref.enter=請輸入推薦人代碼
 dash.settings.user.ref=推薦人
 dash.settings.user.session.extend=延長自動登出時間
 dash.settings.user.session.update=Update Session Alive Time
@@ -360,6 +361,6 @@ error.register.failedtocreate=無法創建用戶，請再試一次
 error.login.invalidauth=無效的帳號、密碼或雙重認證碼，請再試一次。
 
 # /dashboard/settings/setreferee :: Set Referee with Errors
-error.setreferee.doesnotexist=推薦人號碼並不存在
-error.setreferee.alreadyset=您的推薦人號碼已經被使用
-error.setreferee.sameasyours=You can not set your code as referee code.
+error.setreferee.doesnotexist=推薦人代碼並不存在
+error.setreferee.alreadyset=您的推薦人代碼已經被使用
+error.setreferee.sameasyours=您無法將您自己設為推薦人
