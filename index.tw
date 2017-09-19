@@ -11,7 +11,7 @@ contact.joinslack=加入我們的 Slack社群
 contact.emailus=寫信給我們: support@hodl.zone
 contact.sectiondescription=同為虛擬貨幣持有者的HODL.ZONE創辦成員。
 contact.leaddeveloper=創辦人
-contact.translator=Translator
+contact.translator=網站翻譯
 
 # / :: Header Navbar
 index.header.faq=常見問題
@@ -56,7 +56,7 @@ footer.contact=聯絡我們
 index.header.modal.error=錯誤!
 index.header.modal.email=信箱
 index.header.modal.pass=密碼
-index.header.modal.twofa=2FA
+index.header.modal.twofa=雙重身分認證2FA
 index.header.modal.optional=非必要
 index.header.modal.required=如果您的帳號有啟用此功能才需填寫
 index.header.modal.forgotpass=忘記密碼?
@@ -66,10 +66,10 @@ index.header.modal.confirmpass=確認密碼
 index.header.modal.invitecode=邀請碼
 index.header.modal.register=註冊
 index.header.modal.ref=推薦碼
-index.header.modal.passnotmatch=passwords do not match
+index.header.modal.passnotmatch=密碼不吻合
 
 # /faq :: Frequently Asked Questions
-faq.title=Frequently Asked Questions
+faq.title=常見問題
 
 faq.question_1=什麼是HODL? 你是在說HOLD嗎?
 faq.answer_1=Hodl一詞源自於比特幣剛發跡的時候，諷刺人們不應該在比特幣價值上下波動時，輕易將其出售，相反的應該持有並HOLD住它。在過去8年裡，比特幣的價格爆炸性的飆升，如果你一直抱到現在，肯定獲利不少。
@@ -131,7 +131,7 @@ dash.sidenav.contactus=聯絡我們
 dash.sidenav.faq=常見問題
 dash.sidenav.meetteam=我們的團隊
 dash.sidenav.sendlove=給我們鼓勵
-dash.sidenav.language=Language
+dash.sidenav.language=語言
 
 # /dashboard :: Dashboard TopNav
 dash.topnav.email=嗨，你好嗎
@@ -229,8 +229,8 @@ dash.settings.lending.bitfinwarn=目前我們並未完全支援Bitfinex. 因此�
 dash.settings.lending.api=填入您的API金鑰來操作您的{{getExchangeName()}} account. 您可以在這裡創造新的API金鑰:
 dash.settings.lending.apikey=API金鑰
 dash.settings.lending.seckey=密碼
-dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
-dash.settings.enable.min-label=Miniumum Loan Rate
+dash.settings.enable.info=啟用放款功能，將開始出借您放款帳號(lending account)中的所有虛擬貨幣， 您可以隨時停止這個功能， 左邊的欄位是機器人在自動出借該貨幣時最低出借利率， 如果利率低於您的最低限度，機器人將自動停止出借。 如果您不希望每日的放款利率低於某％時，建議您設定這個利率。
+dash.settings.enable.min-label=最低出借利率
 
 # /dashboard#/settings/user :: User Settings
 dash.settings.user.2fa=雙重身分驗證2FA
@@ -268,10 +268,10 @@ dash.deposit.title=儲值
 dash.deposit.desc=增加您的HODL.ZONE機器人點數
 
 dash.deposit.refundpolicy.title=退款政策 (不會退款)
-dash.deposit.refundpolicy.one=All products are sold “as is”. You assume the responsibility for your purchase, and no refunds will be issued. Any unspent credits will remain on your account until further loans are placed and debt is accumulated.
+dash.deposit.refundpolicy.one=儲值前請詳閱本站儲值政策， 您將承擔一切購買的責任，本網站不會退款。 任何未使用的點數餘額將保留在您的帳戶中，直到您有進一步的放款或是帳務積累。
 
-dash.deposit.disclaimer.title=Disclaimer
-dash.deposit.disclaimer.one=By depositing credits, you allow HODL.ZONE to make loans to margin traders on your behalf. These credits will be automatically used to pay the debt accumulated by the bots actions. The debt will be accrued at the maximum rate of 10% of the gross profits per loan at the time of the loan closing. For currencies other than BTC, the BTC value of the token will be taken at the time of the debt being issued. If your account runs out of credits, HODL.ZONE reserves the right to cease all lending action until more credits are added.
+dash.deposit.disclaimer.title=免責聲明
+dash.deposit.disclaimer.one=透過點數的儲值，您授權HODL.ZONE代表您進行一切放款出借行為， 這些點數將用於支付自動放款機器人的費用， 在出借任務結束時，將以每筆放款獲得的利潤作為依據收費，最高收費到利潤的10％。 若您以BTC以外的貨幣進行放款，則將該貨幣換算當時的BTC價值計算。 如果您的帳戶中的點數不足，HODL.ZONE有權終止自動放款服務，直到您存入更多的點數。
 dash.deposit.disclaimer.two=HODL.ZONE will count any loan closing after the lending is enabled as a loan created by HODL.ZONE. Any loans created by the user while the bot is enabled, will still accrue debt. This means, if you plan to do manual lending, disable the bot immediately, or you will be charged.
 dash.deposit.disclaimer.three=In the event you disagree with the debts being accumulated, disable lending immediatly and contact support@hodl.zone. In the event unfair debt was accrued	, HODL.ZONE may issue credits to our discretion, but at no point will issue any refunds.
 
@@ -305,11 +305,11 @@ dash.profpredic.projec.desc=All predictions will be made for lending rates on th
 dash.profpredic.projec.token.tooltip=Crypto currency to be lent
 dash.profpredic.projec.token.title=Token:
 dash.profpredic.projec.quant.tooltip=Amount of crypto currency to be lent
-dash.profpredic.projec.quant.title=Quantity:
+dash.profpredic.projec.quant.title=數量:
 dash.profpredic.projec.uptime.tooltip=Percentage of total being lent at all times
 dash.profpredic.projec.uptime.title=Uptime:
 dash.profpredic.projec.fee.tooltip=HODLZONE收取的費用上限為10%
-dash.profpredic.projec.fee.title=HODLZONE Fee:
+dash.profpredic.projec.fee.title=HODLZONE費用:
 
 dash.profpredic.projec.lend.desc=Lending rates are represented in the interest per day. Interest rates are listed below are an average across the time duration specified. All predictions will use the average in the last 30 days.
 dash.profpredic.projec.lend.title=放款利率
