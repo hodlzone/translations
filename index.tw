@@ -255,7 +255,7 @@ dash.settings.user.ref.set=設定推薦人
 dash.settings.user.ref.enter=請輸入推薦人代碼
 dash.settings.user.ref=推薦人
 dash.settings.user.session.extend=延長自動登出時間
-dash.settings.user.session.update=Update Session Alive Time
+dash.settings.user.session.update=修改自動登出的時間
 dash.settings.user.session.active=Active Sessions
 dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
 dash.settings.user.session.none=No active active sessions open besides current session.
@@ -272,12 +272,12 @@ dash.deposit.refundpolicy.one=儲值前請詳閱本站儲值政策， 您將承�
 
 dash.deposit.disclaimer.title=免責聲明
 dash.deposit.disclaimer.one=透過點數的儲值，您授權HODL.ZONE代表您進行一切放款出借行為， 這些點數將用於支付自動放款機器人的費用， 在出借任務結束時，將以每筆放款獲得的利潤作為依據收費，最高收費到利潤的10％。 若您以BTC以外的貨幣進行放款，則將該貨幣換算當時的BTC價值計算。 如果您的帳戶中的點數不足，HODL.ZONE有權終止自動放款服務，直到您存入更多的點數。
-dash.deposit.disclaimer.two=HODL.ZONE will count any loan closing after the lending is enabled as a loan created by HODL.ZONE. Any loans created by the user while the bot is enabled, will still accrue debt. This means, if you plan to do manual lending, disable the bot immediately, or you will be charged.
-dash.deposit.disclaimer.three=In the event you disagree with the debts being accumulated, disable lending immediatly and contact support@hodl.zone. In the event unfair debt was accrued	, HODL.ZONE may issue credits to our discretion, but at no point will issue any refunds.
+dash.deposit.disclaimer.two=HODL.ZONE將會對任何由HODL.ZONE機器人所啟用的放款任務收取費用，但當機器人運作時，用戶自己主動創建的放款動作也會產生費用，換句話說，若您要手動放款，請立即停用機器人，否則將會被收取額外的費用。
+dash.deposit.disclaimer.three=若您不認同任何一筆已產生的費用，請立即停止機器人運作並連絡support@hodl.zone。系統若產生不合理的收費行為時，HODL.ZONE可能會以點數的形式退回費用。
 
-dash.deposit.paymentproc.title=Payment Processing
-dash.deposit.paymentproc.one=All payments will be recorded in BTC value, as that is how all debt is charged. All payments must be done in BTC, however if you own a Coinbase account, you may use USD, and it will be converted to it's BTC value.
-dash.deposit.paymentproc.two=Be sure to double check the amount selected before finializing any payments. It is a custom field with a few suggested amounts. Although any amount can be inputted, the user is responsible for any transaction fees (if using Coinbase account, there is none).
+dash.deposit.paymentproc.title=付款程序
+dash.deposit.paymentproc.one=所有付款都會已BTC計價，因為費用也是使用BTC，所以付款會以BTC收費。但若您擁有Coinbase的帳戶，您可以使用美金，再將其轉換成BTC。
+dash.deposit.paymentproc.two=在您要進行任何交易前，請再次確認您的金額是否正確。It is a custom field with a few suggested amounts. Although any amount can be inputted, the user is responsible for any transaction fees (如果使用Coinbase帳戶，則沒有).
 
 dash.deposit.howmuch.title=How much to deposit?
 dash.deposit.howmuch.one=Deposits should be carefully thought about, as they are non-refundable. All deposits add credit to your account, which will be used to pay off the accumulating debt and allow the bot to continue to function. This means you should deposit enough to cover the running costs for the amount of time you wish the bot to run. You can always add more funds later. You can get an estimate on the amount you will be making
@@ -290,8 +290,8 @@ dash.deposit.paywithbtc.title=Paying with BTC
 dash.deposit.paywithbtc.one=When depositing BTC, you should keep in mind the fees around a bitcoin transaction. We reccomend getting a Coinbase account, as if you pay with a Coinbase account, there are no fees, and you can deposit as little BTC as you want. When depositing BTC, you have to cover the cost of the transaction, making small deposits much more expensive.
 
 dash.deposit.loading=Loading...
-dash.deposit.boxdesc=By checking this box you accept to the Refund Policy and Disclaimer
-dash.deposit.paythr=Pay Through Coinbase
+dash.deposit.boxdesc=當您打勾，代表您同意及接受本站的退款政策及免責聲明
+dash.deposit.paythr=透過Coinbase儲值
 dash.deposit.accountcredit=is the account to be credited
 
 # /dashboard#/prediction :: Dashboard Profit Predictions
@@ -303,7 +303,7 @@ dash.profpredic.estimate.desc=This page is designed to assist the user in predic
 dash.profpredic.projec.title=Projections for Token
 dash.profpredic.projec.desc=All predictions will be made for lending rates on the Poloniex Exchange.
 dash.profpredic.projec.token.tooltip=Crypto currency to be lent
-dash.profpredic.projec.token.title=Token:
+dash.profpredic.projec.token.title=幣別:
 dash.profpredic.projec.quant.tooltip=Amount of crypto currency to be lent
 dash.profpredic.projec.quant.title=數量:
 dash.profpredic.projec.uptime.tooltip=Percentage of total being lent at all times
