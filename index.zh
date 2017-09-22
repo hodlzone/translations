@@ -280,8 +280,8 @@ dash.deposit.paymentproc.one=所有付款都会已BTC计价，因为费用也是
 dash.deposit.paymentproc.two=在您要进行任何交易前，请再次确认您的金额是否正确。您可以输入任何想传送的金额，而传送所产生的费用由用户负担(如果使用Coinbase帐户，则没有)。
 
 dash.deposit.howmuch.title=How much to deposit?
-dash.deposit.howmuch.one=dash.deposit.howmuch.one=在储值每一笔金额前，请您一定要考虑的清楚，我们不会退还任何费用，而所有汇入的金钱都会转成点数加入到您的帐户中，您可以用它来支付使用机器人所累积的费用。另外，虽然您可以随时随地的储值点数，但如果帐户里没有足够点数时，机器人将停止作业，直到帐户里储值了足够的点数为止。
-# dash.deposit.howmuch.here=here
+dash.deposit.howmuch.one=在储值每一笔金额前，请您一定要考虑的清楚，我们不会退还任何费用，而所有汇入的金钱都会转成点数加入到您的帐户中，您可以用它来支付使用机器人所累积的费用。另外，虽然您可以随时随地的储值点数，但如果帐户里没有足够点数时，机器人将停止作业，直到帐户里储值了足够的点数为止。
+dash.deposit.howmuch.here=here
 
 dash.deposit.coinbasecust.title=Coinbase 用户
 dash.deposit.coinbasecust.one=使用Coinbase来汇入您的钱到HODL.ZONE是最佳的方式，因为它不会产生额外的手续费，另外Coinbase的用户受限的最低汇入金额比较宽松，这让您更容易决定需要汇入多少。
