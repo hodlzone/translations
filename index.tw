@@ -225,8 +225,8 @@ dash.payment.info.rmodal.ucustreduc.none=尚未擁有任何用戶減免
 dash.payment.info.rmodal.ucustreduc.desc=這是所有已達成的用戶減免紀錄<br>總和:
 
 # /dashboard#/settings/lending :: Lending Settings
-dash.settings.lending.bitfinwarn=目前我們並未完全支援Bitfinex. 因此我們並不會對 Bitfinex 獲得的利潤收取任何費用, and all lending will be at the FRR rate.
-dash.settings.lending.api=填入您的API金鑰來操作您的{{getExchangeName()}} account. 您可以在這裡創造新的API金鑰:
+dash.settings.lending.bitfinwarn=目前我們並未完全支援Bitfinex. 因此我們並不會對 Bitfinex 獲得的利潤收取任何費用, 而所有的放款利率為FRR(不匹配率)
+dash.settings.lending.api=填入您的API金鑰來操作您的{{getExchangeName()}} 帳號，您可以在這裡創造新的API金鑰:
 dash.settings.lending.apikey=API金鑰
 dash.settings.lending.seckey=密碼
 dash.settings.enable.info=啟用放款功能，將開始出借您放款帳號(lending account)中的所有虛擬貨幣， 您可以隨時停止這個功能， 左邊的欄位是機器人在自動出借該貨幣時最低出借利率， 如果利率低於您的最低限度，機器人將自動停止出借。 如果您不希望每日的放款利率低於某％時，建議您設定這個利率。
@@ -256,9 +256,9 @@ dash.settings.user.ref.enter=請輸入推薦人代碼
 dash.settings.user.ref=推薦人
 dash.settings.user.session.extend=延長自動登出時間
 dash.settings.user.session.update=修改自動登出的時間
-dash.settings.user.session.active=Active Sessions
-dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
-dash.settings.user.session.none=No active active sessions open besides current session.
+dash.settings.user.session.active=有效裝置
+dash.settings.user.session.note=注意: 您最後登入的裝置為有效的裝置，若要取消使用，請您記得登出。
+dash.settings.user.session.none=換言之，您一次只能登入一個裝置。
 
 
 
@@ -277,41 +277,41 @@ dash.deposit.disclaimer.three=若您不認同任何一筆已產生的費用，�
 
 dash.deposit.paymentproc.title=付款程序
 dash.deposit.paymentproc.one=所有付款都會已BTC計價，因為費用也是使用BTC，所以付款會以BTC收費。但若您擁有Coinbase的帳戶，您可以使用美金，再將其轉換成BTC。
-dash.deposit.paymentproc.two=在您要進行任何交易前，請再次確認您的金額是否正確。It is a custom field with a few suggested amounts. Although any amount can be inputted, the user is responsible for any transaction fees (如果使用Coinbase帳戶，則沒有).
+dash.deposit.paymentproc.two=在您要進行任何交易前，請再次確認您的金額是否正確。您可以輸入任何想傳送的金額，而傳送所產生的費用由用戶負擔(如果使用Coinbase帳戶，則沒有)。
 
 dash.deposit.howmuch.title=How much to deposit?
-dash.deposit.howmuch.one=Deposits should be carefully thought about, as they are non-refundable. All deposits add credit to your account, which will be used to pay off the accumulating debt and allow the bot to continue to function. This means you should deposit enough to cover the running costs for the amount of time you wish the bot to run. You can always add more funds later. You can get an estimate on the amount you will be making
-dash.deposit.howmuch.here=here
+dash.deposit.howmuch.one=dash.deposit.howmuch.one=在儲值每一筆金額前，請您一定要考慮的清楚，我們不會退還任何費用，而所有匯入的金錢都會轉成點數加入到您的帳戶中，您可以用它來支付使用機器人所累積的費用。另外，雖然您可以隨時隨地的儲值點數，但如果帳戶裡沒有足夠點數時，機器人將停止作業，直到帳戶裡儲值了足夠的點數為止。
+# dash.deposit.howmuch.here=here
 
 dash.deposit.coinbasecust.title=Coinbase 用戶
-dash.deposit.coinbasecust.one=Owning a Coinbase account is the best way to make deposits to HODL.ZONE, as there are no fees. Coinbase customers can make micro deposits, making it easier to decide how much to deposit at a time, as very small amounts are allowed.
+dash.deposit.coinbasecust.one=使用Coinbase來匯入您的錢到HODL.ZONE是最佳的方式，因為它不會產生額外的手續費，另外Coinbase的用戶受限的最低匯入金額比較寬鬆，這讓您更容易決定需要匯入多少。
 
-dash.deposit.paywithbtc.title=Paying with BTC
-dash.deposit.paywithbtc.one=When depositing BTC, you should keep in mind the fees around a bitcoin transaction. We reccomend getting a Coinbase account, as if you pay with a Coinbase account, there are no fees, and you can deposit as little BTC as you want. When depositing BTC, you have to cover the cost of the transaction, making small deposits much more expensive.
+dash.deposit.paywithbtc.title=使用BTC付款
+dash.deposit.paywithbtc.one=當您使用BTC付款，請記得您在傳送BTC的過程中，會產生額外的費用。我們推薦您申辦Coinbase的帳戶，因為使用Coinbase不會產生額外費用，可以一次只傳送極少量的BTC。若您直接用BTC付款，您必須要在傳送過程中負擔額外費用，所以即便所傳送的金額數目很小，也會使您的金額變得昂貴。
 
-dash.deposit.loading=Loading...
+dash.deposit.loading=載入中.......
 dash.deposit.boxdesc=當您打勾，代表您同意及接受本站的退款政策及免責聲明
 dash.deposit.paythr=透過Coinbase儲值
-dash.deposit.accountcredit=is the account to be credited
+dash.deposit.accountcredit=為您預設的儲值帳戶
 
 # /dashboard#/prediction :: Dashboard Profit Predictions
-dash.profpredic.title=Profit Projections
+dash.profpredic.title=估計的利潤
 
-dash.profpredic.estimate.title=Estimation of Potential Earnings
-dash.profpredic.estimate.desc=This page is designed to assist the user in predicting their potential earnings from lending. All projections are based off the average lending rates over the last 30 days. This is by no means 100% accurate, as market trends can swing up or down, drastically changing the projection. This is merely a tool to help users get a general sense of their potential earnings.
+dash.profpredic.estimate.title=預估可能所賺取的利潤
+dash.profpredic.estimate.desc=本頁面是讓使用者估計放款可能賺取的利潤，所有估計都是使用過去30天得到的平均放款利率。所以這並不是100%精確，市場趨勢可能上揚也可能下降，而導致預估的利潤與實際不同。因此，這僅僅是一個輔助工具來幫助使用者評估有可能獲得的利潤。
 
-dash.profpredic.projec.title=Projections for Token
-dash.profpredic.projec.desc=All predictions will be made for lending rates on the Poloniex Exchange.
-dash.profpredic.projec.token.tooltip=Crypto currency to be lent
+dash.profpredic.projec.title=獲利預測
+dash.profpredic.projec.desc=所有放款的預測利率都是參考Poloniex交易所。
+dash.profpredic.projec.token.tooltip=即將被出借的數位貨幣
 dash.profpredic.projec.token.title=幣別:
-dash.profpredic.projec.quant.tooltip=Amount of crypto currency to be lent
+dash.profpredic.projec.quant.tooltip=即將被出借的貨幣數量
 dash.profpredic.projec.quant.title=數量:
-dash.profpredic.projec.uptime.tooltip=Percentage of total being lent at all times
-dash.profpredic.projec.uptime.title=Uptime:
+dash.profpredic.projec.uptime.tooltip=放款時間內被出借的貨幣百分比
+dash.profpredic.projec.uptime.title=出借率:
 dash.profpredic.projec.fee.tooltip=HODLZONE收取的費用上限為10%
 dash.profpredic.projec.fee.title=HODLZONE費用:
 
-dash.profpredic.projec.lend.desc=Lending rates are represented in the interest per day. Interest rates are listed below are an average across the time duration specified. All predictions will use the average in the last 30 days.
+dash.profpredic.projec.lend.desc=出借利率代表您每天能賺到的利息，下表中的利息是根據過去30天的平均利息得出。
 dash.profpredic.projec.lend.title=放款利率
 dash.profpredic.projec.lend.last30days=過去30天
 dash.profpredic.projec.lend.last7days=過去7天
@@ -334,7 +334,7 @@ dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
 dash.cur.lendhist.title=上個月 {{幣別}} 出借紀錄
-dash.cur.lendhist.desc=Each day represents the loans that closed on that given day. Keep in mind that this has some data skew because loans can be up to 2 days in length, meaning a loan placed today might not show up until 2 days from now. This causes days with average shorter durations appear more profitible.
+dash.cur.lendhist.desc=每一天都代表在當天結算的放款活動。請注意，這裡的數據都會有偏差，因為放款可以持續2天，這代表今天的放款紀錄可能在兩天後才會出現，這導致平均較短的放款週期可能出現較多利潤。
 dash.cur.lendhist.switchto=切換
 dash.cur.lendhist.dollars=元
 dash.cur.lendhist.none=無出借紀錄
