@@ -11,7 +11,7 @@ contact.joinslack=加入我们的Slack社群
 contact.emailus=写信给我们：support@hodl.zone
 contact.sectiondescription=同为虚拟货币持有者的HODL.ZONE创办成员。
 contact.leaddeveloper=创办人
-contact.translator=Translator
+contact.translator=网站翻译
 
 # / :: Header Navbar
 index.header.faq=常见问题
@@ -66,10 +66,10 @@ index.header.modal.confirmpass=确认密码
 index.header.modal.invitecode=邀请码
 index.header.modal.register=注册
 index.header.modal.ref=推荐码
-index.header.modal.passnotmatch=passwords do not match
+index.header.modal.passnotmatch=密码不吻合
 
 # /faq :: Frequently Asked Questions
-faq.title=Frequently Asked Questions
+faq.title=常见问题
 
 faq.question_1=什么是HODL？你是在说HOLD吗？
 faq.answer_1= Hodl一词源自于比特币刚发迹的时候，讽刺人们不应该在比特币价值上下波动时，轻易将其出售，相反的应该持有并HOLD住它。在过去8年里，比特币的价格爆炸性的飙升，如果你一直抱到现在，肯定获利不少。
@@ -131,7 +131,7 @@ dash.sidenav.contactus=联络我们
 dash.sidenav.faq=常见问题
 dash.sidenav.meetteam=我们的团队
 dash.sidenav.sendlove=给我们鼓励
-dash.sidenav.language=Language
+dash.sidenav.language=语言
 
 # /dashboard :: Dashboard TopNav
 dash.topnav.email=亲，你好吗
@@ -225,12 +225,12 @@ dash.payment.info.rmodal.ucustreduc.none=尚未拥有任何用户减免
 dash.payment.info.rmodal.ucustreduc.desc=这是所有已达成的用户减免纪录点击<br>总和：
 
 # /dashboard#/settings/lending :: Lending Settings
-dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，所有贷款将以FRR率。
+dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，而所有的放款利率为FRR(不匹配率)。
 dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName（）}}帐户。您可以在这里创造新的API金钥：
 dash.settings.lending.apikey= API金钥
 dash.settings.lending.seckey=密码
-dash.settings.enable.info=Enabling lending will begin lending any crypto in your lending account. You can disable it at any time. The left column is the MINIMUM loan rate the bot will use when lending with that crypto. If the rate goes below your minimum, the bot will stop making loans. Setting this rate is reccomended if you do not wish for loans to fall below a certain daily %.
-dash.settings.enable.min-label=Miniumum Loan Rate
+dash.settings.enable.info=启用放款功能，将开始出借您放款帐号(lending account)中的所有虚拟货币， 您可以随时停止这个功能， 左边的栏位是机器人在自动出借该货币时最低出借利率， 如果利率低于您的最低限度，机器人将自动停止出借。如果您不希望每日的放款利率低于某％时，建议您设定这个利率。
+dash.settings.enable.min-label=最低出借利率
 
 # /dashboard#/settings/user :: User Settings
 dash.settings.user.2fa=双重身分验证2FA
@@ -238,7 +238,7 @@ dash.settings.user.2fa.current=目前的双重身分验证2FA是
 # This refers to a 2fa Token that is needed for input
 dash.settings.user.2fa.token=Token
 dash.settings.user.2fa.header=创造双重身分验证2FA2FA
-dash.settings.user.2fa.info=若您启用双重身分验证，您每次登入时都将必须输入验证码，因此开启此功能必需要非常小心，一旦您无法满足验证，意味者您会失去对帐户的访问权限。 dash.settings.user.2fa.create=创造双重身分验证2FA2FA
+dash.settings.user.2fa.info=若您启用双重身分验证，您每次登入时都将必须输入验证码，因此开启此功能必需要非常小心，一旦您无法满足验证，意味者您会失去对帐户的访问权限。 
 dash.settings.user.2fa.create=创造双重身分验证2FA
 dash.settings.user.2fa.create_new=创造新的双重身分验证2FA
 dash.settings.user.qr=QRCode
@@ -254,64 +254,64 @@ dash.settings.user.password.match=密码必须符合
 dash.settings.user.ref.set=设定推荐人
 dash.settings.user.ref.enter=请输入推荐人代码
 dash.settings.user.ref=推荐人
-dash.settings.user.session.extend=Extend Time Waited between Sessions
-dash.settings.user.session.update=Update Session Alive Time
-dash.settings.user.session.active=Active Sessions
-dash.settings.user.session.note=Note: Only sessions shown are those besides current session. To close this session, please logout.
-dash.settings.user.session.none=No active active sessions open besides current session.
+dash.settings.user.session.extend=延长自动登出时间
+dash.settings.user.session.update=修改自动登出的时间
+dash.settings.user.session.active=有效装置
+dash.settings.user.session.note=注意: 您最后登入的装置为有效的装置，若要取消使用，请您记得登出。
+dash.settings.user.session.none=换言之，您一次只能登入一个装置
 
 
 
 
 # /dashboard#/deposit :: Dashboard Deposit
-dash.deposit.title=Deposit
-dash.deposit.desc=Adding credits to your HODL.ZONE bot.
+dash.deposit.title=储值
+dash.deposit.desc=增加您的HODL.ZONE机器人点数
 
-dash.deposit.refundpolicy.title=Refund Policy (No Refund)
-dash.deposit.refundpolicy.one=All products are sold “as is”. You assume the responsibility for your purchase, and no refunds will be issued. Any unspent credits will remain on your account until further loans are placed and debt is accumulated.
+dash.deposit.refundpolicy.title=退款政策 (不会退款)
+dash.deposit.refundpolicy.one=储值前请详阅本站储值政策， 您将承担一切购买的责任，本网站不会退款。任何未使用的点数余额将保留在您的帐户中，直到您有进一步的放款或是帐务积累。
 
-dash.deposit.disclaimer.title=Disclaimer
-dash.deposit.disclaimer.one=By depositing credits, you allow HODL.ZONE to make loans to margin traders on your behalf. These credits will be automatically used to pay the debt accumulated by the bots actions. The debt will be accrued at the maximum rate of 10% of the gross profits per loan at the time of the loan closing. For currencies other than BTC, the BTC value of the token will be taken at the time of the debt being issued. If your account runs out of credits, HODL.ZONE reserves the right to cease all lending action until more credits are added.
-dash.deposit.disclaimer.two=HODL.ZONE will count any loan closing after the lending is enabled as a loan created by HODL.ZONE. Any loans created by the user while the bot is enabled, will still accrue debt. This means, if you plan to do manual lending, disable the bot immediately, or you will be charged.
-dash.deposit.disclaimer.three=In the event you disagree with the debts being accumulated, disable lending immediatly and contact support@hodl.zone. In the event unfair debt was accrued	, HODL.ZONE may issue credits to our discretion, but at no point will issue any refunds.
+dash.deposit.disclaimer.title=免责声明
+dash.deposit.disclaimer.one=透过点数的储值，您授权HODL.ZONE代表您进行一切放款出借行为， 这些点数将用于支付自动放款机器人的费用， 在出借任务结束时，将以每笔放款获得的利润作为依据收费，最高收费到利润的10％。若您以BTC以外的货币进行放款，则将该货币换算当时的BTC价值计算。如果您的帐户中的点数不足，HODL.ZONE有权终止自动放款服务，直到您存入更多的点数。
+dash.deposit.disclaimer.two=HODL.ZONE将会对任何由HODL.ZONE机器人所启用的放款任务收取费用，但当机器人运作时，用户自己主动创建的放款动作也会产生费用，换句话说，若您要手动放款，请立即停用机器人，否则将会被收取额外的费用。
+dash.deposit.disclaimer.three=若您不认同任何一笔已产生的费用，请立即停止机器人运作并连络support@hodl.zone。系统若产生不合理的收费行为时，HODL.ZONE可能会以点数的形式退回费用。
 
-dash.deposit.paymentproc.title=Payment Processing
-dash.deposit.paymentproc.one=All payments will be recorded in BTC value, as that is how all debt is charged. All payments must be done in BTC, however if you own a Coinbase account, you may use USD, and it will be converted to it's BTC value.
-dash.deposit.paymentproc.two=Be sure to double check the amount selected before finializing any payments. It is a custom field with a few suggested amounts. Although any amount can be inputted, the user is responsible for any transaction fees (if using Coinbase account, there is none).
+dash.deposit.paymentproc.title=付款程序
+dash.deposit.paymentproc.one=所有付款都会已BTC计价，因为费用也是使用BTC，所以付款会以BTC收费。但若您拥有Coinbase的帐户，您可以使用美金，再将其转换成BTC。
+dash.deposit.paymentproc.two=在您要进行任何交易前，请再次确认您的金额是否正确。您可以输入任何想传送的金额，而传送所产生的费用由用户负担(如果使用Coinbase帐户，则没有)。
 
 dash.deposit.howmuch.title=How much to deposit?
-dash.deposit.howmuch.one=Deposits should be carefully thought about, as they are non-refundable. All deposits add credit to your account, which will be used to pay off the accumulating debt and allow the bot to continue to function. This means you should deposit enough to cover the running costs for the amount of time you wish the bot to run. You can always add more funds later. You can get an estimate on the amount you will be making
-dash.deposit.howmuch.here=here
+dash.deposit.howmuch.one=dash.deposit.howmuch.one=在储值每一笔金额前，请您一定要考虑的清楚，我们不会退还任何费用，而所有汇入的金钱都会转成点数加入到您的帐户中，您可以用它来支付使用机器人所累积的费用。另外，虽然您可以随时随地的储值点数，但如果帐户里没有足够点数时，机器人将停止作业，直到帐户里储值了足够的点数为止。
+# dash.deposit.howmuch.here=here
 
-dash.deposit.coinbasecust.title=Coinbase Customers
-dash.deposit.coinbasecust.one=Owning a Coinbase account is the best way to make deposits to HODL.ZONE, as there are no fees. Coinbase customers can make micro deposits, making it easier to decide how much to deposit at a time, as very small amounts are allowed.
+dash.deposit.coinbasecust.title=Coinbase 用户
+dash.deposit.coinbasecust.one=使用Coinbase来汇入您的钱到HODL.ZONE是最佳的方式，因为它不会产生额外的手续费，另外Coinbase的用户受限的最低汇入金额比较宽松，这让您更容易决定需要汇入多少。
 
-dash.deposit.paywithbtc.title=Paying with BTC
-dash.deposit.paywithbtc.one=When depositing BTC, you should keep in mind the fees around a bitcoin transaction. We reccomend getting a Coinbase account, as if you pay with a Coinbase account, there are no fees, and you can deposit as little BTC as you want. When depositing BTC, you have to cover the cost of the transaction, making small deposits much more expensive.
+dash.deposit.paywithbtc.title=使用BTC付款
+dash.deposit.paywithbtc.one=当您使用BTC付款，请记得您在传送BTC的过程中，会产生额外的费用。我们推荐您申办Coinbase的帐户，因为使用Coinbase不会产生额外费用，可以一次只传送极少量的BTC。若您直接用BTC付款，您必须要在传送过程中负担额外费用，所以即便所传送的金额数目很小，也会使您的金额变得昂贵。
 
-dash.deposit.loading=Loading...
-dash.deposit.boxdesc=By checking this box you accept to the Refund Policy and Disclaimer
-dash.deposit.paythr=Pay Through Coinbase
-dash.deposit.accountcredit=is the account to be credited
+dash.deposit.loading=载入中.......
+dash.deposit.boxdesc=当您打勾，代表您同意及接受本站的退款政策及免责声明
+dash.deposit.paythr=透过Coinbase储值
+dash.deposit.accountcredit=为您预设的储值帐户
 
 # /dashboard#/prediction :: Dashboard Profit Predictions
-dash.profpredic.title=Profit Projections
+dash.profpredic.title=估计的利润
 
-dash.profpredic.estimate.title=Estimation of Potential Earnings
-dash.profpredic.estimate.desc=This page is designed to assist the user in predicting their potential earnings from lending. All projections are based off the average lending rates over the last 30 days. This is by no means 100% accurate, as market trends can swing up or down, drastically changing the projection. This is merely a tool to help users get a general sense of their potential earnings.
+dash.profpredic.estimate.title=预估可能所赚取的利润
+dash.profpredic.estimate.desc=本页面是让使用者估计放款可能赚取的利润，所有估计都是使用过去30天得到的平均放款利率。所以这并不是100%精确，市场趋势可能上扬也可能下降，而导致预估的利润与实际不同。因此，这仅仅是一个辅助工具来帮助使用者评估有可能获得的利润。
 
-dash.profpredic.projec.title=Projections for Token
-dash.profpredic.projec.desc=All predictions will be made for lending rates on the Poloniex Exchange.
-dash.profpredic.projec.token.tooltip=Crypto currency to be lent
-dash.profpredic.projec.token.title=Token:
-dash.profpredic.projec.quant.tooltip=Amount of crypto currency to be lent
-dash.profpredic.projec.quant.title=Quantity:
-dash.profpredic.projec.uptime.tooltip=Percentage of total being lent at all times
-dash.profpredic.projec.uptime.title=Uptime:
-dash.profpredic.projec.fee.tooltip=The HODLZONE fee, max is 10%
-dash.profpredic.projec.fee.title=HODLZONE Fee:
+dash.profpredic.projec.title=获利预测
+dash.profpredic.projec.desc=所有放款的预测利率都是参考Poloniex交易所。
+dash.profpredic.projec.token.tooltip=即将被出借的数位货币
+dash.profpredic.projec.token.title=币别:
+dash.profpredic.projec.quant.tooltip=即将被出借的货币数量
+dash.profpredic.projec.quant.title=数量:
+dash.profpredic.projec.uptime.tooltip=放款时间内被出借的货币百分比
+dash.profpredic.projec.uptime.title=出借率:
+dash.profpredic.projec.fee.tooltip=HODLZONE收取的费用上限为10%
+dash.profpredic.projec.fee.title=HODLZONE费用:
 
-dash.profpredic.projec.lend.desc=Lending rates are represented in the interest per day. Interest rates are listed below are an average across the time duration specified. All predictions will use the average in the last 30 days.
+dash.profpredic.projec.lend.desc=出借利率代表您每天能赚到的利息，下表中的利息是根据过去30天的平均利息得出。
 dash.profpredic.projec.lend.title=放款利率
 dash.profpredic.projec.lend.last30days=过去30天
 dash.profpredic.projec.lend.last7days=过去7天
@@ -334,7 +334,7 @@ dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
 dash.cur.lendhist.title=上个月 {{币别}} 出借纪录
-dash.cur.lendhist.desc=Each day represents the loans that closed on that given day. Keep in mind that this has some data skew because loans can be up to 2 days in length, meaning a loan placed today might not show up until 2 days from now. This causes days with average shorter durations appear more profitible.
+dash.cur.lendhist.desc=每一天都代表在当天结算的放款活动。请注意，这里的数据都会有偏差，因为放款可以持续2天，这代表今天的放款纪录可能在两天后才会出现，这导致平均较短的放款周期可能出现较多利润。
 dash.cur.lendhist.switchto=切换
 dash.cur.lendhist.dollars=元
 dash.cur.lendhist.none=无出借纪录
