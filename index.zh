@@ -289,7 +289,7 @@ dash.deposit.coinbasecust.one=使用Coinbase来汇入您的钱到HODL.ZONE是最
 dash.deposit.paywithbtc.title=使用BTC付款
 dash.deposit.paywithbtc.one=当您使用BTC付款，请记得您在传送BTC的过程中，会产生额外的费用。我们推荐您申办Coinbase的帐户，因为使用Coinbase不会产生额外费用，可以一次只传送极少量的BTC。若您直接用BTC付款，您必须要在传送过程中负担额外费用，所以即便所传送的金额数目很小，也会使您的金额变得昂贵。
 
-dash.deposit.loading=载入中.......
+dash.deposit.loading=载入中...
 dash.deposit.boxdesc=当您打勾，代表您同意及接受本站的退款政策及免责声明
 dash.deposit.paythr=透过Coinbase储值
 dash.deposit.accountcredit=为您预设的储值帐户
