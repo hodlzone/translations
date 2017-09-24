@@ -226,7 +226,7 @@ dash.payment.info.rmodal.ucustreduc.desc=这是所有已达成的用户减免纪
 
 # /dashboard#/settings/lending :: Lending Settings
 dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，而所有的放款利率为FRR(不匹配率)。
-dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName（）}}帐户。您可以在这里创造新的API金钥：
+dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName()}}帐户。您可以在这里创造新的API金钥：
 dash.settings.lending.apikey= API金钥
 dash.settings.lending.seckey=密码
 dash.settings.enable.info=启用放款功能，将开始出借您放款帐号(lending account)中的所有虚拟货币， 您可以随时停止这个功能， 左边的栏位是机器人在自动出借该货币时最低出借利率， 如果利率低于您的最低限度，机器人将自动停止出借。如果您不希望每日的放款利率低于某％时，建议您设定这个利率。
