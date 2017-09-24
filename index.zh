@@ -24,20 +24,20 @@ index.hero.slogan=透过利滚利，放大您持有的数位资产
 index.hero.start_button=开始出借
 
 index.body.grow_heading=让你持有的资金变多
-index.body.grow_text=银行利用你的储蓄放款给投资人来赚取利率，同理，您也可以出借您的数位货币来赚取利润
+index.body.grow_text=银行能透过出借您的存款给投资人来赚取利润，同样的，您也可以出借您的数位货币来赚取利息
 index.body.whatis=什么是HODL.ZONE？
-index.body.whatis_text=数位货币的出借利率每个小时都在变动，我们透过演算法和机器人，让您能自动的出借当前最好的利率
-index.body.hodlfunds=我们并不会经手您的任何本金
-index.body.hodlfunds_text= HODL.ZONE并不能从你的帐号提取任何资金，你必须要先在Poloniex（俗称P网）储值资金，然后开放有限的权限（不能提存款）给我们的网站，让我们能为您操作赚取利率。
+index.body.whatis_text=数位货币的出借利率每个小时都在变动，透过我们的演算法和自动挂单机器人，您能透过本站自动的放款，获得当前最好的利率
+index.body.hodlfunds=我们并不会经手您的任何资金
+index.body.hodlfunds_text=HODL.ZONE并不能从你的帐号提取任何资金，你必须要先在Poloniex(俗称P网)投入资金，然后开放有限的权限(无法提款或存款)给我们的网站，让我们能为您操作赚取利润。
 index.body.earnings=我能获得多少利润？
-index.body.calculator=使用历史利率，来估计您将会获利多少
+index.body.calculator=使用历史利率，来估计您将会获得多少利润
 index.body.calculator.amount=比特币BTC数量
 index.body.calculator.time=周
 index.body.slack.join=加入我们的Slack社群
-index.body.slack.description=让我们亲自向您提供帮助，使您的问题能更快找到答案，也欢迎您向我们提出任何意见及回馈
+index.body.slack.description=让我们能亲自向您提供帮助，使您的问题能更快找到答案，也欢迎您向我们提出任何意见及回馈
 index.body.slack.signup=注册
-index.body.bottom.row.one=出借您的货币其实很容易
-index.body.bottom.row.one_text=跟着我们的步骤
+index.body.bottom.row.one=出借货币其实很容易
+index.body.bottom.row.one_text=请您跟着我们的步骤
 index.body.bottom.row.one_msg=详细资讯
 index.body.bottom.row.two=还是没搞懂吗？
 index.body.bottom.row.two_text=也许这些能回答你
@@ -49,7 +49,7 @@ index.body.news.desc=订阅我们的电子报
 index.body.news.button=订阅！
 
 # / :: Footer
-footer.support=支援
+footer.support=问题支援
 footer.contact=联系我们
 
 # / :: Modal Login/Register 
@@ -77,38 +77,38 @@ faq.answer_1= Hodl一词源自于比特币刚发迹的时候，讽刺人们不�
 faq.question_2=什么是HODL.ZONE？
 faq.answer_2= HODL.ZONE是一个利用Poloniex（俗称P网）出借系统(lending system)增加你数位货币资产的网站。
 
-faq.question_3=什么是出借(lending)？
-faq.answer_3=交易者可以透过与其他用户借款，进行货币交易来增加利润（和损失）。借贷双方为了鼓励用户借贷数位货币，提高他们对这笔贷款兴趣这些出借利率随着每天交易活动，价格和消息而变化。
+faq.question_3=什么是放款(lending)？
+faq.answer_3=交易者可以透过与其他用户借款，进行货币交易来增加利润（或损失）。借贷双方为了鼓励用户向他们借贷数位货币，这些借贷的利率随着每天的交易活动、价格和消息而变化。
 
-faq.question_4=出借安全吗？
-faq.answer_4=通常放款时，您必须承担和担心对方违约的风险，但幸运的是，Poloniex可以防止这种情况发生，借款人必须先抵押本金，如果他的本金接近违约时该给付的金额，系统就会强制将其自动清算，也就是说出借方并不会有任何损失。
+faq.question_4=放款安全吗？
+faq.answer_4=通常放款时，您必须承担和担心对方违约的风险，但幸运的是，Poloniex可以防止这种情况发生，借款人必须先抵押其本金才能借款，如果借款方的本金接近违约时应该给付的金额时，系统就会自动强制将其清算，也就是说出借方并不会有任何的损失。
 
 faq.question_5=那么，要怎么出借你的资金呢？
-faq.answer_5=您可以透过将资金从您的交易帐户（Exchange）转移到您的Poloniex的出借(Lending)帐户来进行放款，并藉借设置利息的高低来吸引其他用户向你借款，而这些贷款持续的周期可能短到以秒为单位，或是长达60天之久（我们网站设定最大的出借天数为两天，好处就是你的资金永远不会被绑住太久），这使得手动挂单出借显得很没有效率和困难，因为你没办法预测借款者会不会提早还款，也就是说，每当你检查你的帐户，你可能会发现有资金闲置（被提早还款），这也就是就是为什么使用HODL.ZONE这样的自动化服务，可以透过不断自动挂单出借你的资金，最大化你的利益，而不是让你的资金闲置在那里。
+faq.answer_5=透过Poloniex，您可以将资金从您的交易帐户（Exchange）转移到您的出借(Lending)帐户来进行放款，并藉由设置利息的高低来吸引其他用户向你借款，而这些贷款持续的周期可能短到以秒为单位，或是长达60天之久（我们网站设定最大的出借天数为两天，好处就是你的资金永远不会被绑住太久），这使得手动挂单放款显得很没有效率和困难，因为你没办法预测借款者会不会提早还款，也就是说，每当你检查你的帐户，你可能会发现有资金闲置（被提早还款），这也就是就是为什么使用HODL.ZONE这样的自动化服务，可以透过不断自动挂单出借你的资金，最大化你的利益，而不是让你的资金闲置在那里。
 
 faq.question_6=那..为什么要选HODL.ZONE呢？
-faq.answer_6=由于市场利率波动无常，所以我们透过不断记录贷款利率的统计资料，来决定最佳利率，因为我们的目标不仅仅是最大限度地延长出借的时间，还有出借时的利息。
+faq.answer_6=由于市场利率波动无常，我们能透过不断记录贷款利率的统计资料，来决定最佳的出借利率，因为我们的目标不仅仅是最大限度地延长出借的时间，还有出借时的利息。
 
 faq.question_7=我可以信任HODL.ZONE吗？
-faq.answer_7=当设定我们通过API辅助您的帐户时，您可以透过限制API的权限来防止我们提取您的货币，降低您我损失的风险。我们是一群虚拟货币持有者，创建并提供服务给其他加密货币玩家，而这一切都将建立在信任的基础上，所以我们开放我们的身份，并在时差上建立一个开放及公开的沟通管道，如果您有任何疑问及疑虑，请随时与我们联系及讨论，我们非常重视您们的意见及反馈。
+faq.answer_7=当设定我们通过API辅助您的帐户时，您可以透过限制API的权限来防止我们提取您的货币，降低造成您我损失的风险。我们是一群虚拟货币持有者，创建并提供服务给其他加密货币玩家，而这一切都将建立在信任的基础上，所以我们开放我们的身份，并在Slack上建立一个开放及公开的沟通管道，如果您有任何疑问及疑虑，请随时与我们联系及讨论，我们非常重视您们的意见及反馈。
 
 faq.question_8=我可以相信Poloniex吗？我自己不是也可以保管比特币？
 faq.answer_8=在交易所存放虚拟货币的确有一定的风险，我们不是在告诉大家Poloniex是储存资金多好多棒的地方，只是，当你在Poloniex上储存资金，透过出借的等等的方式，可以让您的资产增加，而单纯的储存在钱包里是不会生产任何利息的。
 
 faq.question_9=那么..可以获利多少钱呢？
-faq.answer_9=利率每天都不断变化，有时您可以每天获得本金的0.5％，但是有时也可能变得很低。首页上的计算器是使用BTC贷款的月平均利率，所以有兴趣的话可以尝试一下。我们正持续不断努力，期望能够在未来提供您更多有利的资讯。
+faq.answer_9=利率每天都不断变化，有时您可以每天获得本金的0.5％，但是有时也可能变得很低。首页上的计算器是使用BTC贷款的月平均利率，所以有兴趣的话可以尝试一下。与此同时，我们正持续不断的努力，期望能够在未来提供您更多有利的资讯
 
-faq.question_10=如果我的资金被绑在比特币以外的货币怎么办？
+faq.question_10=如果我持有的货币是比特币以外的货币怎么办？
 faq.answer_10=虽然我们主要重点放在比特币的借贷，但同时我们也支持BTS，CLAM，DOGE，DASH，LTC，MAID，STR，XMR，ETH和FCT的出借。但请别忘记，我们的重点放在比特币BTC，如果您持有的是比特币以外的货币，我们可能还没有优化该货币的演算法，但是，我们一直朝这个方向努力，希望能尽可能地满足各种货币的持有者，最大化大家的收益。
 
 
 # /newpass/request :: New Password Requests
-newpass.input_password=填入新密码
+newpass.input_password=获取新密码
 newpass.new_password=新密码
 newpass.input_email=填入你的信箱
-newpass.email_success=确认信已送出，请确认用户资料正确。
+newpass.email_success=重设信已送出，请在您的信箱查收。
 newpass.congrats=恭喜！您的密码已成功变更！
-newpass.dead=喔不，你传送的连结已经失效:(请再重新过
+newpass.dead=喔不，你传送的连结已经失效:(请再重新来过
 
 # Verified
 verified.email_sucess=信箱认证成功
@@ -161,7 +161,7 @@ dash.payment.info.viewmore=查看更多
 dash.payment.info.close=关闭
 
 dash.payment.info.methods.title=储值方法：
-dash.payment.info.methods.desc.start=亲爱的用户您好，目前我们只接受比特币付款，但如果您拥有Coinbase帐号，我们我也接受您用它来支付美金USD。如果您在支付上遭遇任何困难，请跟我们联络，您可以在SLACK社群找到我们
+dash.payment.info.methods.desc.start=亲爱的用户您好，目前我们只接受比特币付款，但如果您拥有Coinbase帐号，我们也接受您用它来支付美金USD。如果您在支付上遭遇任何困难，请跟我们联络，您可以在SLACK社群找到我们
 dash.payment.info.methods.desc.end=或写EMAIL
 dash.payment.info.methods.desc.list.one=如果用户已使用及未使用的点数总和超过0.025BTC，推荐人将获得0.5％费用的减免
 dash.payment.info.methods.desc.list.two=每储值0.01BTC，用户都能减免0.1％的费用
@@ -169,11 +169,11 @@ dash.payment.info.methods.tooltip=其他折扣类型没有上限
 dash.payment.info.methods.refpaydisc=推荐和储值的奖励总和上限为3.5％。
 dash.payment.info.methods.add=添加储值
 
-dash.payment.info.userinfo.title=更新资讯
-dash.payment.info.userinfo.tdebt=总债务：
-dash.payment.info.userinfo.ucred=未使用余点数：
-dash.payment.info.userinfo.scred=已花费点数：
-dash.payment.info.userinfo.charge= HODL.ZONE收费：
+dash.payment.info.userinfo.title=最新资讯
+dash.payment.info.userinfo.tdebt=帐务资料：
+dash.payment.info.userinfo.ucred=点数余额：
+dash.payment.info.userinfo.scred=已使用点数：
+dash.payment.info.userinfo.charge= HODL.ZONE手续费：
 dash.payment.info.userinfo.referalcode=推荐码<small>（您的推荐码）</ small>：
 dash.payment.info.userinfo.refereecode.desc=推荐人<small>（您推荐人的帐号）</ small>：
 dash.payment.info.userinfo.refereecode.miss=尚未设定，您可以设定您的推荐人透过
@@ -182,7 +182,7 @@ dash.payment.info.plog.title=用户储值纪录
 dash.payment.info.plog.notfound=没有付款资讯
 
 dash.payment.info.dlog.title=用户帐务日志
-dash.payment.info.dlog.desc=所有费用均按帐户的当前费率计算。如果已达成折扣条件，只会影响新的帐单，而不是现有的帐单。
+dash.payment.info.dlog.desc=所有费用均按帐户的当前费率计算。如果已达成折扣条件，会在新的帐单中生效，而不是现有的帐单。
 dash.payment.info.dlog.notfound=没有发现帐单。
 
 dash.payment.info.pmodal.title=详细储值资讯
@@ -225,7 +225,7 @@ dash.payment.info.rmodal.ucustreduc.none=尚未拥有任何用户减免
 dash.payment.info.rmodal.ucustreduc.desc=这是所有已达成的用户减免纪录点击<br>总和：
 
 # /dashboard#/settings/lending :: Lending Settings
-dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，而所有的放款利率为FRR(不匹配率)。
+dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，而其所有的放款利率为FRR(波动利率)。
 dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName()}}帐户。您可以在这里创造新的API金钥：
 dash.settings.lending.apikey= API金钥
 dash.settings.lending.seckey=密码
@@ -265,18 +265,18 @@ dash.settings.user.session.none=换言之，您一次只能登入一个装置
 
 # /dashboard#/deposit :: Dashboard Deposit
 dash.deposit.title=储值
-dash.deposit.desc=增加您的HODL.ZONE机器人点数
+dash.deposit.desc=增加您的HODL.ZONE点数
 
 dash.deposit.refundpolicy.title=退款政策 (不会退款)
 dash.deposit.refundpolicy.one=储值前请详阅本站储值政策， 您将承担一切购买的责任，本网站不会退款。任何未使用的点数余额将保留在您的帐户中，直到您有进一步的放款或是帐务积累。
 
 dash.deposit.disclaimer.title=免责声明
 dash.deposit.disclaimer.one=透过点数的储值，您授权HODL.ZONE代表您进行一切放款出借行为， 这些点数将用于支付自动放款机器人的费用， 在出借任务结束时，将以每笔放款获得的利润作为依据收费，最高收费到利润的10％。若您以BTC以外的货币进行放款，则将该货币换算当时的BTC价值计算。如果您的帐户中的点数不足，HODL.ZONE有权终止自动放款服务，直到您存入更多的点数。
-dash.deposit.disclaimer.two=HODL.ZONE将会对任何由HODL.ZONE机器人所启用的放款任务收取费用，但当机器人运作时，用户自己主动创建的放款动作也会产生费用，换句话说，若您要手动放款，请立即停用机器人，否则将会被收取额外的费用。
+dash.deposit.disclaimer.two=HODL.ZONE将会对任何由HODL.ZONE机器人所启用的放款任务收取费用，但当机器人运作时，用户自己主动创建的放款动作也会产生费用，换句话说，若您要手动放款，请立即停用机器人，否则将会造成额外的费用产生。
 dash.deposit.disclaimer.three=若您不认同任何一笔已产生的费用，请立即停止机器人运作并连络support@hodl.zone。系统若产生不合理的收费行为时，HODL.ZONE可能会以点数的形式退回费用。
 
 dash.deposit.paymentproc.title=付款程序
-dash.deposit.paymentproc.one=所有付款都会已BTC计价，因为费用也是使用BTC，所以付款会以BTC收费。但若您拥有Coinbase的帐户，您可以使用美金，再将其转换成BTC。
+dash.deposit.paymentproc.one=所有付款记录都会以BTC计价，因为费用也是使用BTC收费，但若您拥有Coinbase的帐户，您可以使用美金，再将其转换成BTC。
 dash.deposit.paymentproc.two=在您要进行任何交易前，请再次确认您的金额是否正确。您可以输入任何想传送的金额，而传送所产生的费用由用户负担(如果使用Coinbase帐户，则没有)。
 
 dash.deposit.howmuch.title=我应该要储值多少钱呢？
@@ -326,7 +326,7 @@ dash.profpredic.projec.profit.grossprof.title=利润总额
 dash.profpredic.projec.profit.grossbtcprof.tooltip=换算当前BTC价值
 dash.profpredic.projec.profit.grossbtcprof.title=利润总额(BTC)
 dash.profpredic.projec.profit.credsconsumed.tooltip=收费上限为10%
-dash.profpredic.projec.profit.credsconsumed.title=已消耗点数(不含手续费)
+dash.profpredic.projec.profit.credsconsumed.title=已支付点数(不含手续费)
 dash.profpredic.projec.profit.daily=日
 dash.profpredic.projec.profit.weekly=周
 dash.profpredic.projec.profit.monthly=月
