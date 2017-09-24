@@ -242,7 +242,7 @@ dash.settings.user.2fa.info=若您啟用雙重身分驗證，您每次登入時�
 dash.settings.user.2fa.create=創造雙重身分驗證2FA
 dash.settings.user.2fa.create_new=創造新的雙重身分驗證2FA
 dash.settings.user.qr=QRCode
-dash.settings.user.qr.info=使用您的Google Authenticator掃描QR code。一旦你離開這個頁面，這將永遠不會再顯示，因此影印這個頁面可能是明智的選擇。Once you do that, refresh this page and ENABLE 2fa. Two Factor must be ENABLED to work, and won't be enabled until you input your 2fa token string after the page is refreshed.
+dash.settings.user.qr.info=使用您的Google Authenticator掃描QR code。一旦你離開這個頁面，這將永遠不會再顯示，因此影印這個頁面可能是明智的選擇。一旦您啟用雙重身分認證2FA，並刷新這個頁面以後，往後您的每次登入都必須完成兩種驗證方式才能順利登入。若您確定要啟用雙重身分認證2FA，請在下方輸入帳號密碼，以及雙重身分認證2FA的密碼。
 dash.settings.user.2fa.password=您只需要密碼來創造一個新的雙重身分驗證2FA
 dash.settings.user.email.verify=確認Email
 dash.settings.user.email.verify.ask=請確認您的email!
@@ -279,8 +279,8 @@ dash.deposit.paymentproc.title=付款程序
 dash.deposit.paymentproc.one=所有付款都會已BTC計價，因為費用也是使用BTC，所以付款會以BTC收費。但若您擁有Coinbase的帳戶，您可以使用美金，再將其轉換成BTC。
 dash.deposit.paymentproc.two=在您要進行任何交易前，請再次確認您的金額是否正確。您可以輸入任何想傳送的金額，而傳送所產生的費用由用戶負擔(如果使用Coinbase帳戶，則沒有)。
 
-dash.deposit.howmuch.title=How much to deposit?
-dash.deposit.howmuch.one=dash.deposit.howmuch.one=在儲值每一筆金額前，請您一定要考慮的清楚，我們不會退還任何費用，而所有匯入的金錢都會轉成點數加入到您的帳戶中，您可以用它來支付使用機器人所累積的費用。另外，雖然您可以隨時隨地的儲值點數，但如果帳戶裡沒有足夠點數時，機器人將停止作業，直到帳戶裡儲值了足夠的點數為止。
+dash.deposit.howmuch.title=我應該要儲值多少錢呢?
+dash.deposit.howmuch.one=在儲值每一筆金額前，請您一定要考慮的清楚，我們不會退還任何費用，而所有匯入的金錢都會轉成點數加入到您的帳戶中，您可以用它來支付使用機器人所累積的費用。另外，雖然您可以隨時隨地的儲值點數，但如果帳戶裡沒有足夠點數時，機器人將停止作業，直到帳戶裡儲值了足夠的點數為止。
 dash.deposit.howmuch.here=here
 
 dash.deposit.coinbasecust.title=Coinbase 用戶
@@ -289,7 +289,7 @@ dash.deposit.coinbasecust.one=使用Coinbase來匯入您的錢到HODL.ZONE是最
 dash.deposit.paywithbtc.title=使用BTC付款
 dash.deposit.paywithbtc.one=當您使用BTC付款，請記得您在傳送BTC的過程中，會產生額外的費用。我們推薦您申辦Coinbase的帳戶，因為使用Coinbase不會產生額外費用，可以一次只傳送極少量的BTC。若您直接用BTC付款，您必須要在傳送過程中負擔額外費用，所以即便所傳送的金額數目很小，也會使您的金額變得昂貴。
 
-dash.deposit.loading=載入中.......
+dash.deposit.loading=載入中...
 dash.deposit.boxdesc=當您打勾，代表您同意及接受本站的退款政策及免責聲明
 dash.deposit.paythr=透過Coinbase儲值
 dash.deposit.accountcredit=為您預設的儲值帳戶
