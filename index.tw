@@ -333,18 +333,18 @@ dash.profpredic.projec.profit.monthly=月
 dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
-dash.cur.lendhist.title=上個月 {{幣別}} 出借紀錄
+dash.cur.lendhist.title=上個月 {{coin}} 出借紀錄
 dash.cur.lendhist.desc=每一天都代表在當天結算的放款活動。請注意，這裡的數據都會有偏差，因為放款可以持續2天，這代表今天的放款紀錄可能在兩天後才會出現，這導致平均較短的放款週期可能出現較多利潤。
 dash.cur.lendhist.switchto=切換
 dash.cur.lendhist.dollars=元
 dash.cur.lendhist.none=無出借紀錄
 
-dash.cur.lendrate.title=上個月 {{幣別}} 放款利率
+dash.cur.lendrate.title=上個月 {{coin}} 放款利率
 dash.cur.lendrate.desc=中線為當下的平均利率，周圍則是最高和最低的利率。
 dash.cur.lendrate.loading=載入詳細的出借紀錄...這可能需要一些時間。
 dash.cur.lendrate.none=無放款利率紀錄
 
-dash.cur.lendamount.title=上個月 {{幣別}} 出借總額
+dash.cur.lendamount.title=上個月 {{coin}} 出借總額
 dash.cur.lendamount.desc=這裡顯示您上個月出借及尚未借出的的虛擬貨幣總額。
 dash.cur.lendamount.loading=加載詳細的出借紀錄...這可能需要一些時間。
 dash.cur.lendamount.none=無出借紀錄

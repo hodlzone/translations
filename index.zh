@@ -226,7 +226,7 @@ dash.payment.info.rmodal.ucustreduc.desc=这是所有已达成的用户减免纪
 
 # /dashboard#/settings/lending :: Lending Settings
 dash.settings.lending.bitfinwarn=目前我们并未完全支援Bitfinex,因此我们并不会对Bitfinex获得的利润收取任何费用，而其所有的放款利率为FRR(波动利率)。
-dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName（）}}帐户。您可以在这里创造新的API金钥：
+dash.settings.lending.api=填入您的API金钥来操作您的{{getExchangeName()}}帐户。您可以在这里创造新的API金钥：
 dash.settings.lending.apikey= API金钥
 dash.settings.lending.seckey=密码
 dash.settings.enable.info=启用放款功能，将开始出借您放款帐号(lending account)中的所有虚拟货币， 您可以随时停止这个功能， 左边的栏位是机器人在自动出借该货币时最低出借利率， 如果利率低于您的最低限度，机器人将自动停止出借。如果您不希望每日的放款利率低于某％时，建议您设定这个利率。
@@ -333,18 +333,18 @@ dash.profpredic.projec.profit.monthly=月
 dash.profpredic.projec.profit.yearly=年
 
 # /dashboard#/coin/<coinname> :: Dashboard Currencies
-dash.cur.lendhist.title=上个月 {{币别}} 出借纪录
+dash.cur.lendhist.title=上个月 {{coin}} 出借纪录
 dash.cur.lendhist.desc=每一天都代表在当天结算的放款活动。请注意，这里的数据都会有偏差，因为放款可以持续2天，这代表今天的放款纪录可能在两天后才会出现，这导致平均较短的放款周期可能出现较多利润。
 dash.cur.lendhist.switchto=切换
 dash.cur.lendhist.dollars=元
 dash.cur.lendhist.none=无出借纪录
 
-dash.cur.lendrate.title=上个月 {{币别}} 放款利率
+dash.cur.lendrate.title=上个月 {{coin}} 放款利率
 dash.cur.lendrate.desc=中线为当下的平均利率，周围则是最高和最低的利率。
 dash.cur.lendrate.loading=载入详细的出借纪录...这可能需要一些时间。
 dash.cur.lendrate.none=无放款利率纪录
 
-dash.cur.lendamount.title=上个月 {{币别}} 出借总额
+dash.cur.lendamount.title=上个月 {{coin}} 出借总额
 dash.cur.lendamount.desc=这里显示您上个月出借及尚未借出的的虚拟货币总额。
 dash.cur.lendamount.loading=加载详细的出借纪录...这可能需要一些时间。
 dash.cur.lendamount.none=无出借纪录
