@@ -1,5 +1,5 @@
 # General
-general.button.apply=申請
+general.button.apply=送出
 general.Button.clear=清除
 general.Button.delete=刪除
 
@@ -237,7 +237,7 @@ dash.settings.user.2fa=雙重身分驗證2FA
 dash.settings.user.2fa.current=目前的雙重身分驗證2FA是
 # This refers to a 2fa Token that is needed for input
 dash.settings.user.2fa.token=Token
-dash.settings.user.2fa.header=創造雙重身分驗證2FA2FA
+dash.settings.user.2fa.header=創造雙重身分驗證2FA
 dash.settings.user.2fa.info=若您啟用雙重身分驗證，您每次登入時都將必須輸入驗證碼，因此開啟此功能必需要非常小心，一旦您無法滿足驗證，意味者您會失去對帳戶的訪問權限。dash.settings.user.2fa.create=創造雙重身分驗證2FA2FA
 dash.settings.user.2fa.create=創造雙重身分驗證2FA
 dash.settings.user.2fa.create_new=創造新的雙重身分驗證2FA
@@ -258,7 +258,7 @@ dash.settings.user.session.extend=延長自動登出時間
 dash.settings.user.session.update=修改自動登出的時間
 dash.settings.user.session.active=有效裝置
 dash.settings.user.session.note=注意: 您最後登入的裝置為有效的裝置，若要取消使用，請您記得登出。
-dash.settings.user.session.none=換言之，您一次只能登入一個裝置。
+dash.settings.user.session.none=您一次只能登入一個裝置。
 
 
 
