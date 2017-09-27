@@ -189,8 +189,8 @@ dash.payment.info.dlog.notfound=没有发现帐单。
 
 dash.payment.info.pmodal.title=详细储值资讯
 dash.payment.info.pmodal.code=Code
-dash.payment.info.pmodal.credited=Credited
-dash.payment.info.pmodal.contacted=Contacted
+dash.payment.info.pmodal.credited=储值帐号
+dash.payment.info.pmodal.contacted=来源帐号
 dash.payment.info.pmodal.coinbasepaymentdate=Coinbase支付日期：
 dash.payment.info.pmodal.hodlpaymentdate=HODL.ZONE支付日期：
 dash.payment.info.pmodal.paymentamount=交易数量
