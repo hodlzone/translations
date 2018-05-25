@@ -298,6 +298,8 @@ dash.deposit.boxdesc=By checking this box you accept to the Refund Policy and Di
 dash.deposit.paythr=Pay Through Coinbase
 dash.deposit.accountcredit=is the account to be credited
 
+dash.deposit.freemessage=This app is free. Please support us by clicking the heart in the bottom left and donating to keep our servers running!
+
 # /dashboard#/prediction :: Dashboard Profit Predictions
 dash.profpredic.title=Profit Projections
 

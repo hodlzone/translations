@@ -298,6 +298,8 @@ dash.deposit.boxdesc=当您打勾，代表您同意及接受本站的退款政�
 dash.deposit.paythr=透过Coinbase储值
 dash.deposit.accountcredit=为您预设的储值帐户
 
+dash.deposit.freemessage=This app is free. Please support us by clicking the heart in the bottom left and donating to keep our servers running!
+
 # /dashboard#/prediction :: Dashboard Profit Predictions
 dash.profpredic.title=估计的利润
 
