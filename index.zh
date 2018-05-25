@@ -49,6 +49,8 @@ index.body.bottom.row.three_msg=博客
 index.body.news.header=不要错过我们的新闻
 index.body.news.desc=订阅我们的电子报
 index.body.news.button=订阅！
+index.body.price=Cost and Price
+index.body.price.message=Free!!!! No cost what so ever. We used to be a paid service, but have since made it FREE because of the minimal costs to run the servers. The only thing we ask is for small donations which can be found at the bottom Dashboard->Bottom Left->Heart Symbol.
 
 # / :: Footer
 footer.support=问题支援
